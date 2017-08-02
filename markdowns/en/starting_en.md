@@ -30,6 +30,12 @@ The birth of computers comes from Turing and the famous Turing Machine. The conc
 
 The first real computer was the big ENIAC (Electrical Numerical Integrator and Calculator) machine, created by John W. Mauchly and J. Presper Eckert at the University of Pennsylvania. It used words of ten decimal digits instead of binary. ENIAC machine used more than 15 000 vacuum tube (also named thermionic valve, or lamp). ENIAC was Turing-complete : it can be programmed to resolve all problems. Vacuum tubes are fragiles and are very hot when ENIAC works, so, when an insect burned on a lamp, the lamp explode. They call it : a bug. The executable instructions of ENIAC programs were stored in separate units, which were plugged to form a route.
 
+?[What is the weight of the big ENIAC?]
+-[ ] 6kg
+-[ ] 42kg
+-[x] 30 000kg
+-[ ] 2407kg
+
 Around the 1950s appeared the transistor : more efficient and smaller, it has replaced big lamp and is present in radios, computers, amplifier ...
 
 In the 1960s, thanks to the transistor, IBM has developped mainframes and was the leader in computer. But mainframes was exepensive, large, and difficult to use.
