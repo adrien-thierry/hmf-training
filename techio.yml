@@ -10,7 +10,7 @@ plan:
     statement: markdowns/starting_fr.md
   - title: Computer
     statement: markdowns/computer_fr.md
- -  title: Protocol
+  - title: Protocol
     statement: markdowns/protocol_fr.md
- -  title: Communication
+  - title: Communication
     statement: markdowns/communication_fr.md
