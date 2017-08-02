@@ -6,3 +6,5 @@ plan:
     statement: markdowns/welcome.md # Set the file path to the page content
   - title: Training
     statement: markdowns/training_fr.md
+  - title: Starting
+    statement: markdowns/starting_fr.md
