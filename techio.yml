@@ -13,7 +13,7 @@ plan:
   - title: Protocol
     statement: markdowns/fr/protocol_fr.md
   - title: Communication
-    statement: markdowns/fr/ommunication_fr.md
+    statement: markdowns/fr/communication_fr.md
   - title: Coding
     statement: markdowns/fr/coding_fr.md
   - title: Algorithm
