@@ -18,7 +18,7 @@ Maintenant, votre première leçon :
 
 > Il y a 10 types de personnes dans ce monde, ceux qui comprennent le binaire, et ceux qui ne le comprennent pas.
 
-Vous avez compris : allez à la prochaine étape ! Sinon, une piste : comptez en binaire (00, 01, ...).
+Vous avez compris : allez à la prochaine étape ! Sinon, une piste : comptez en binaire (00, 01, ...). 
  <span style="color: #fb4141">Oui, l'entrainement commence maintenant.</span>
 
 ## Le Contenu
@@ -31,8 +31,6 @@ Dans cette formation en ligne, vous trouverez de la théorie et de la pratique. 
 * Et des blagues (:
 
 Vous pouvez dès à présent vous rendre à l'Introduction si vous voulez suivre la logique du cours, sinon, vous pouvez aller apprendre ce que vous voulez.
-
-Commencer l'entrainement
 
 # Plus
 
