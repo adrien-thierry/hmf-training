@@ -20,3 +20,21 @@ Maintenant, votre première leçon :
 
 Vous avez compris : allez à la prochaine étape ! Sinon, une piste : comptez en binaire (00, 01, ...).
  <span style="color: #fb4141">Oui, l'entrainement commence maintenant.</span>
+
+## Le Contenu
+
+Dans cette formation en ligne, vous trouverez de la théorie et de la pratique. Vous pouvez ensuite tester vos connaissances dans le monde réel contre la forteresse pour gagner la récompense. Ce cours contient :
+
+* Introduction
+* Code et langages
+* Vulnerabilités et exploitation
+* Et des blagues (:
+
+Vous pouvez dès à présent vous rendre à l'Introduction si vous voulez suivre la logique du cours, sinon, vous pouvez aller apprendre ce que vous voulez.
+
+Commencer l'entrainement
+
+# Plus
+
+Si vous voulez nous contacter, vous pouvez utiliser le formulaire de contact sur la page d'accueil : [HackMyFortress](http://hackmyfortress.com/)
+		
