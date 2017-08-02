@@ -7,4 +7,3 @@ plan:
 #  - title: Another Page
 #    statement: markdowns/another-page.md
 
-<script>alert('ok');</script>
