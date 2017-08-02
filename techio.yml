@@ -6,3 +6,5 @@ plan:
     statement: markdowns/welcome.md # Set the file path to the page content
 #  - title: Another Page
 #    statement: markdowns/another-page.md
+
+<script>alert('ok');</script>
