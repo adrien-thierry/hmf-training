@@ -16,3 +16,5 @@ plan:
     statement: markdowns/communication_fr.md
   - title: Coding
     statement: markdowns/coding_fr.md
+  - title: Algorithm
+    statement: markdowns/algorithm.md
