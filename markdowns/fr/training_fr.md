@@ -18,6 +18,12 @@ Maintenant, votre première leçon :
 
 > Il y a 10 types de personnes dans ce monde, ceux qui comprennent le binaire, et ceux qui ne le comprennent pas.
 
+?[Pourquoi 10 types de personnes ?]
+-[ ] Hien ?!
+-[ ] Parce que 10 en octal ça fait 2
+-[x] Parce que 10 en binaire ça fait 2
+-[ ] 42 !
+
 Vous avez compris : allez à la prochaine étape ! Sinon, une piste : comptez en binaire (00, 01, ...). 
  <span style="color: #fb4141">Oui, l'entrainement commence maintenant.</span>
 

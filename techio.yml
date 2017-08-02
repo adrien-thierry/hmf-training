@@ -5,16 +5,16 @@ plan:
   - title: Welcome # Set the page title (only displayed if your contribution has several pages)
     statement: markdowns/welcome.md # Set the file path to the page content
   - title: Training
-    statement: markdowns/en/training_en.md
+    statement: markdowns/fr/training_fr.md
   - title: Starting
-    statement: markdowns/en/starting_en.md
+    statement: markdowns/fr/starting_fr.md
   - title: Computer
-    statement: markdowns/en/computer_en.md
+    statement: markdowns/fr/computer_fr.md
   - title: Protocol
-    statement: markdowns/en/protocol_en.md
+    statement: markdowns/fr/protocol_fr.md
   - title: Communication
-    statement: markdowns/en/communication_en.md
+    statement: markdowns/fr/communication_fr.md
   - title: Coding
-    statement: markdowns/en/coding_en.md
+    statement: markdowns/fr/coding_fr.md
   - title: Algorithm
     statement: markdowns/algorithm_en.md # page en anglais !!
