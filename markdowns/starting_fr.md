@@ -25,7 +25,7 @@ La naissance des ordinateurs provient de Turing et de la célèbre Machine de Tu
 
 [machine de Turing](https://interstices.info/autres/grains-int/machine-turing/index.html)
 
-## Les débuts de l'ordinateur
+# Les débuts de l'ordinateur
 
 ## Mainframe
 
