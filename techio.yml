@@ -10,3 +10,5 @@ plan:
     statement: markdowns/starting_fr.md
   - title: Computer
     statement: markdowns/computer_fr.md
+ -  title: Protocol
+    statement: markdowns/protocol_fr.md
