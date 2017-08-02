@@ -47,5 +47,5 @@ Les Services WEB WS-* désignent l'implémentation logicielle des spécification
 ?[Quels service permet de faire le liens entre un nom de domaine et une adresse ip ?]
 -[ ] DHCP
 -[x] DNS
--[ ] LAPOSTE
+-[ ] POSTAL
 -[ ] POP

@@ -39,3 +39,14 @@ SMTP stands for Simple Message Transfer Protocol, which is used to forward e-mai
 
 WEB WS-* Services refers to the software implementation of WS- * specifications and is based on a set of basic protocols and standards used for the exchange of data between applications in heterogeneous environments.
 
+?[Which protocol is used for e-mail ?]
+-[x] SMTP
+-[ ] POP
+-[ ] IMAP
+-[ ] CARAMAIL
+
+?[What services can be used to link a domain name to an ip address ?]
+-[ ] DHCP
+-[x] DNS
+-[ ] POSTAL
+-[ ] POP
