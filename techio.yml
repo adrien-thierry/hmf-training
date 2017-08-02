@@ -12,3 +12,5 @@ plan:
     statement: markdowns/computer_fr.md
  -  title: Protocol
     statement: markdowns/protocol_fr.md
+ -  title: Communication
+    statement: markdowns/communication_fr.md
