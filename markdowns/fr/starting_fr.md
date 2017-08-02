@@ -31,6 +31,12 @@ La naissance des ordinateurs provient de Turing et de la célèbre Machine de Tu
 
 Le premier véritable ordinateur était la grande machine ENIAC (Electrical Numerical Integrator and Calculator), créée par John W. Mauchly et J. Presper Eckert à l'Université de Pennsylvanie. Il a utilisé des mots de dix chiffres décimaux au lieu de binaire. La machine ENIAC a utilisé plus de 15 000 tubes à vide (également appelés valves thermioniques, ou lampes). ENIAC a été Turing-complet: il peut être programmé pour résoudre tous les problèmes. Les tubes à vide sont fragiles et très chauds quand ENIAC fonctionne, donc, lorsqu'un insecte brûle sur une lampe, la lampe éclate. Ils appellent ça: un bug . Les instructions exécutables des programmes ENIAC ont été stockées dans des unités séparées, qui ont été reliées pour former une route.
 
+?[Quels est le poids de l'ENIAC ?]
+-[ ] 6kg
+-[ ] 42kg
+-[x] 30 000kg 
+-[ ] 2470kg
+
 Autour des années 1950 est apparu le transistor: plus efficace et plus petit, il a remplacé les grosses lampes et est présent dans les radios, ordinateurs, amplificateur ...
 
 Dans les années 1960, grâce au transistor, IBM a développé les mainframes et a été le leader en informatique. Mais les mainframes étaient coûteux, encombrants et difficiles à utiliser.
