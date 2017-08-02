@@ -17,3 +17,6 @@ J'ai entendu quelqu'un poser la question : de quoi ai-je besoin pour suivre ce c
 Maintenant, votre première leçon :
 
 > Il y a 10 types de personnes dans ce monde, ceux qui comprennent le binaire, et ceux qui ne le comprennent pas.
+
+Vous avez compris : allez à la prochaine étape ! Sinon, une piste : comptez en binaire (00, 01, ...).
+ <span style="color: #fb4141">Oui, l'entrainement commence maintenant.</span>
