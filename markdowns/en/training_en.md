@@ -21,7 +21,7 @@ Now, your first lesson :
 ?[Why 10 types of people ?]
 -[ ] 10 types of people ?
 -[ ] 10 egal 2 in octal
--[x] 10 egal 2 in bynari
+-[x] 10 egal 2 in bynary
 -[ ] 42 !!
 
 You got it : go to the next point ! Else, a clue : counting in binary (00, 01, ...). Yes, training starts now.
