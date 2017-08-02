@@ -12,11 +12,11 @@ On the basis of an algorithm, there are the variables. A variable is used to sto
 
 The 'if' is a test to check whether a condition is true or false. An example :
 
-> var test = 1;
+```> var test = 1;
 if(test == 1)
 {
   console.log("test == 1");
-}
+}```
 
 To complete an 'if', or refine it, we can add 'else' or 'else if' tests :
 
