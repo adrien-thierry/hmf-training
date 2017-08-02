@@ -37,3 +37,15 @@ SMTP signifie Simple Message Transfert Protocole, ce protocole est utilisé pour
 ## WEB WS-*
 
 Les Services WEB WS-* désignent l'implémentation logicielle des spécifications WS-* et reposent tous sur un ensemble de protocoles et de standards de base utilisés pour l'échange de données entre applications dans des environnements hétérog
+
+?[Quels protocol sert a envoyer des Mail ?]
+-[x] SMTP
+-[ ] POP
+-[ ] IMAP
+-[ ] CARAMAIL
+
+?[Quels service permet de faire le liens entre un nom de domaine et une adresse ip ?]
+-[ ] DHCP
+-[x] DNS
+-[ ] LAPOSTE
+-[ ] POP

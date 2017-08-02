@@ -35,7 +35,7 @@ Le premier véritable ordinateur était la grande machine ENIAC (Electrical Nume
 -[ ] 6kg
 -[ ] 42kg
 -[x] 30 000kg 
--[ ] 2470kg
+-[ ] 2407kg
 
 Autour des années 1950 est apparu le transistor: plus efficace et plus petit, il a remplacé les grosses lampes et est présent dans les radios, ordinateurs, amplificateur ...
 
