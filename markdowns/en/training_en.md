@@ -18,6 +18,12 @@ Now, your first lesson :
 
 >There are 10 types of people in this world, those who understand binary and those who dont.
 
+?[Why 10 types of people ?]
+-[ ] 10 types of people ?
+-[ ] 10 egal 2 in octal
+-[x] 10 egal 2 in bynari
+-[ ] 42 !!
+
 You got it : go to the next point ! Else, a clue : counting in binary (00, 01, ...). Yes, training starts now.
 
 ## The content
