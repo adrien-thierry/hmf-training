@@ -8,3 +8,5 @@ plan:
     statement: markdowns/training_fr.md
   - title: Starting
     statement: markdowns/starting_fr.md
+  - title: Computer
+    statement: markdowns/computer_fr.md
