@@ -51,4 +51,4 @@ Si vous voulez nous contacter, vous pouvez utiliser le formulaire de contact sur
 
 teste d'exo
 
-@[teste d'exo]({"stubs":["universe.js"], "command": "cat test_universe.js"})
+@[teste d'exo]({"stubs":["universe.js"], "command": "cat universe.js"})
