@@ -23,4 +23,4 @@ plan:
 project:
    exo1:
    root: /exo1-project
-  runner: seraum/nectarjs
+   runner: seraum/nectarjs
