@@ -18,3 +18,9 @@ plan:
     statement: markdowns/fr/coding_fr.md
   - title: Algorithm
     statement: markdowns/algorithm_en.md # page en anglais !!
+
+
+project:
+   exo1:
+   root: /exo1-project
+  runner: seraum/nectarjs
