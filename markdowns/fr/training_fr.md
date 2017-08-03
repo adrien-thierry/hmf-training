@@ -42,13 +42,3 @@ Vous pouvez dès à présent vous rendre à l'Introduction si vous voulez suivre
 
 Si vous voulez nous contacter, vous pouvez utiliser le formulaire de contact sur la page d'accueil : [HackMyFortress](http://hackmyfortress.com/)
 
-
-
-
-
-
-
-
-teste d'exo
-
-@[teste d'exo]({"stubs":["universe.js"], "command": "nectar universe.js"})
