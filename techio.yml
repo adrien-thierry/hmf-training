@@ -20,6 +20,6 @@ plan:
     statement: markdowns/algorithm_en.md # page en anglais !!
   
 projects:
-    exo1:
+  exo1:
     root: /exo1-project
     runner: seraum/nectarjs
