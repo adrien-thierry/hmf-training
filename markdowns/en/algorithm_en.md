@@ -42,4 +42,4 @@ The 'for' loop allows you to repeat one or more instructions as long as a test i
 }
 ```
   
-  @[Luke, how many stars are there in these galaxies?]({"stubs": ["universe.py"], "command": "python3 test_universe.py"})
+  @[Luke, how many stars are there in these galaxies?]({"stubs": ["universe.py"], "command": "cat test_universe.py ; cat toto"})
