@@ -10,6 +10,6 @@ print ("test universe =")
 print (user)
 
 if correct != user:
-    exit(84)
+    exit(1)
 else:
     exit(0)
