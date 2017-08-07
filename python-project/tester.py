@@ -8,6 +8,6 @@ print (correct)
 print (user)
 
 if correct != user:
-    exit(1)
+    exit(84)
 else:
     exit(0)
