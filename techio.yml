@@ -21,5 +21,5 @@ plan:
   
 projects:
   exo1:
-    root: /exo1-project
-    runner: seraum/nectarjs
+    root: python-project
+    runner: python:3
