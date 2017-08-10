@@ -18,6 +18,8 @@ plan:
     statement: markdowns/fr/coding_fr.md
   - title: Algorithm
     statement: markdowns/en/algorithm_en.md # page en anglais !!
+  - title: Compiled & interpreted
+    statement: markdowns/fr/compiled_fr.md
   
 projects:
   exo1:
