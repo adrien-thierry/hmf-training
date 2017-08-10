@@ -18,7 +18,7 @@ plan:
     statement: markdowns/fr/coding_fr.md
   - title: Algorithm
     statement: markdowns/en/algorithm_en.md # page en anglais !!
-  - title: Compiled & interpreted
+  - title: Compiled & Interpreted
     statement: markdowns/fr/compiled_fr.md
   
 projects:
