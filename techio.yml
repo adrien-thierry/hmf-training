@@ -20,6 +20,8 @@ plan:
     statement: markdowns/en/algorithm_en.md # page en anglais !!
   - title: Compiled & Interpreted
     statement: markdowns/fr/compiled_fr.md
+  - title: Exploiting
+    statement: markdowns/fr/exploiting_fr.md
   
 projects:
   exo1:
