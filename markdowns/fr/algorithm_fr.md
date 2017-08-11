@@ -50,9 +50,18 @@ La boucle "for" vous permet de répéter une ou plusieurs instructions tant qu'u
 La boucle "while" vous permet de répéter une des opération tant qu'une condition est remplie. 
 Par exemple :
 
-```while (i < 10)
-		{
-		 i = i + 1;
-		}```	
+```
+var i = 0
+
+while (i < 10)
+	{
+	 i = i + 1;
+	}
+```
+
+Ici temps que i est inférieur a 10 le code dans la boucle va se répéter. Voila quels que exemples de condition:
+
+* > , < , >=, <= (supérieur, inférieur , supérieur ou egal, inférieur ou egal)
+* !=, == (différent, egal)
 
 @[Fait un "Hello World"]({"stubs": ["universe.py","tester.py"], "command": "python universe.py > file.txt ; python tester.py"})
