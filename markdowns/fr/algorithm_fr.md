@@ -45,4 +45,14 @@ La boucle "for" vous permet de répéter une ou plusieurs instructions tant qu'u
 }
 ```
 
+## While (tant que)
+
+La boucle "while" vous permet de répéter une des opération tant qu'une condition est remplie. 
+Par exemple :
+
+```while (i < 10)
+		{
+		 i = i + 1;
+		}```	
+
 @[Fait un "Hello World"]({"stubs": ["universe.py","tester.py"], "command": "python universe.py > file.txt ; python tester.py"})
