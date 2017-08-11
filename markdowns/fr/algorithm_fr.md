@@ -61,7 +61,8 @@ while (i < 10)
 
 Ici temps que i est inférieur a 10 le code dans la boucle va se répéter. Voila quels que exemples de condition:
 
-* > , < , >=, <= (supérieur, inférieur , supérieur ou egal, inférieur ou egal)
+* >> , < , >=, <= (supérieur, inférieur , supérieur ou egal, inférieur ou egal)
 * !=, == (différent, egal)
+
 
 @[Fait un "Hello World"]({"stubs": ["universe.py","tester.py"], "command": "python universe.py > file.txt ; python tester.py"})
