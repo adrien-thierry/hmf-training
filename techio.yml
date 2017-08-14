@@ -24,6 +24,8 @@ plan:
     statement: markdowns/fr/exploiting_fr.md
   - title: Injection SQL
     statement: markdowns/fr/hacking_sql_fr.md
+  - title: Faille XSS
+    statement: markdowns/fr/xss_fr.md
   
 projects:
   exo1:
