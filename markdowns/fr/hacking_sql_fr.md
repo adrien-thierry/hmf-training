@@ -7,18 +7,14 @@ Si vous voulez vous connecter a n'importe quels cite on va vous demander de remp
 L'injection SQL constiste a envoyer dans les champ de connection du code qui va etre interpreter par le cite, est donc vous permetre de faire exectuer votre code par le cite.
 
 ```
-<?php
-
-// On récupère les variables envoyées par le formulaire
-$login = $_POST['login'];
-$password = $_POST['password'];
-
-// Connection a la base do donnée
-try { $bdd = new PDO('mysql:host=localhost;dbname=bdd','root',''); }
-catch (Exeption $e) { die('Erreur : ' .$e->getMessage())  or die(print_r($bdd->errorInfo())); }
-
-// Requête SQL
+//voila une requete SQL
 $req = $bdd->query("SELECT * FROM utilisateurs WHERE login='$login' AND password='$password'");
-
 ?>
+```
+Elle peut se traduire par "Selectione tout dans la colone utilisateurs ou le login = votrePseudo et mots de passee = votremotdepasse" si la requete est valide alors votre compte existe.
+
+Si mintenant j'utilise comme pseudonyme "Flroian09'#" la requete deviens 
+
+```
+$req = $bdd->query("SELECT * FROM utilisateurs WHERE login='florian09#' AND password='$password'");
 ```
