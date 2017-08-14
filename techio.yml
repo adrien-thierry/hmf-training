@@ -22,6 +22,8 @@ plan:
     statement: markdowns/fr/compiled_fr.md
   - title: Exploiting
     statement: markdowns/fr/exploiting_fr.md
+  - title: Injection SQL
+    statement: markdowns/fr/hacking_sql_fr.md
   
 projects:
   exo1:
