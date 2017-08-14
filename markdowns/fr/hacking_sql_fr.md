@@ -18,3 +18,10 @@ Si mintenant j'utilise comme pseudonyme "Flroian09'#" la requete deviens
 ```
 $req = $bdd->query("SELECT * FROM utilisateurs WHERE login='florian09#' AND password='$password'");
 ```
+
+Sachant que le '#' est une balise pour indiquer un commentaire, la requete deviens :
+```
+$req = $bdd->query("SELECT * FROM utilisateurs WHERE login='florian09#'")
+```
+
+Du coup le mots de passe n'est plus vérifier !
