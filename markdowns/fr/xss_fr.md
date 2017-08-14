@@ -26,7 +26,9 @@ Il est trés fréquent de trouver un espace dedier au comentaire sur internet, u
 
 Imaginon que je laisse un commentaire qui ressemble a ça :
 
->Je suis un trol \<script>alert("Je suis un gros trol")\</script>
+```
+Je suis un trol \<script>alert("Je suis un gros trol")\</script>
+```
 
 Mon commentaire qui s'affichera sera "Je suis un trol" est a chaque fois que la page sera charger une boite aparaitra avec a l'intérieur "Je suis un gros trol".
 

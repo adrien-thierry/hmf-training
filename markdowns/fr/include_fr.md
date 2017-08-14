@@ -2,7 +2,9 @@
 
 La fonction include() en PHP sert a executer du code php qui se citue dans un autre fichier. Exemple: 
 
->include(bth.php)
+```
+include(bth.php)
+```
 
 La c'est le code dans bth.php qui sera executer.
 Maintenant un exemple d'URL exploitant cette partie du code :
