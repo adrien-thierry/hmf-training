@@ -39,6 +39,6 @@ Mon commentaire qui s'affichera sera "Je suis un trol" est a chaque fois que la 
 Une fonction existe en PHP pour résoudre se probleme, **htmlspecialchars()**.
 Elle permet de remplacer les carracteres speciaux par des entités HTML. Exemple :
 
-* Le symbole & devient &\amp;
-* Le symbole " devient &\quot;
+* Le symbole & devient \&amp;
+* Le symbole " devient \&quot;
 * Le symbole ' devient &\#39;
