@@ -5,6 +5,6 @@ correct = output.readline()
 user = needed.readline()
 
 if correct != user:
-    exit(1)
+    raise NameError('ERREUR')
 else:
     exit(0)
