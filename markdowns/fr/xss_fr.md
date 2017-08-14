@@ -22,7 +22,7 @@ En partant de cette constatation on peut facilement imaginer tout l'etendue des 
 
 ## La faille xss permanante
 
-Il est tres frequent de trouver un espace dedier au comentaire sur internet, un endroit ou l'on peut laisser sa trace, si c'est espace n'est pas correctement proteger il est simple d'y glisser du code :3
+Il est trés fréquent de trouver un espace dedier au comentaire sur internet, un endroit ou l'on peut laisser une trace, si c'est espace n'est pas correctement protéger il est simple d'y glisser du code :3
 
 Imaginon que je laisse un commentaire qui ressemble a ça :
 
