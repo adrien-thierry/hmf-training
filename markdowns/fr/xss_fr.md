@@ -7,7 +7,8 @@ Il existe plusiuers types de faille xss,
 ## La faille xss éphemere
 
 Imaginon que j'ai un champ deroulant qui me propose de choisir un pays
+Une fois avoir selectioner un pays, ici "English", l'URL change, on obtiens quels que chose comme ça:
 
->English :select
->France
+>http://localhost:81/vulnerabilities/xss_d/?default=English
 
+Se qu'il faut comprendre c'est que "English" est une variable, que l'ont peut editer !  Si dans l'URL je modifie "English" en "Franglais" et que je valide, hop je me retrouve avec "Franglais" dans le champ.
