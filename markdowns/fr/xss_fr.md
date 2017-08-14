@@ -7,8 +7,6 @@ Il existe plusiuers types de faille xss,
 ## La faille xss éphemere
 
 Imaginon que j'ai un champ deroulant qui me propose de choisir un pays.
-Reference-style: 
-![alt text][logo]
 Une fois avoir selectioner un pays, ici "English", l'URL change, on obtiens quels que chose comme ça:
 
 >http://localhost:81/vulnerabilities/xss_d/?default=English
@@ -22,7 +20,15 @@ Si on remplacer "English" par un petit script :3 ! Par exemple :
 Quand je valide cette URL une boite d'alerte aparait avec "Ah!" d'afficher !
 En partant de cette constatation on peut facilement imaginer tout l'etendue des possibilité.
 
-## La faille xss permanante 
+## La faille xss permanante
+
+Il est tres frequent de trouver un espace dedier au comentaire sur internet, un endroit ou l'on peut laisser sa trace, si c'est espace n'est pas correctement proteger il est simple d'y glisser du code :3
+
+Imaginon que je laisse un commentaire qui ressemble a ça :
+
+>Je suis un trol <script>alert("Je suis un gros trol")</script>
+
+Mon commentaire qui s'affichera sera "Je suis un trol" est a chaque fois que la page sera charger une boite aparaitra avec a l'intérieur "Je suis un gros trol".
 
 
 
