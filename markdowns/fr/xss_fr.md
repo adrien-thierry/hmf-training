@@ -8,6 +8,8 @@ Il existe plusiuers types de faille xss,
 
 Imaginon que j'ai un champ deroulant qui me propose de choisir un pays.
 
+Reference-style: 
+![alt text][logo]
 [logo]: https://github.com/adrien-thierry/cg-hmf/blob/master/src/champ_deroulant.PNG "menu deroulant"
 
 Une fois avoir selectioner un pays, ici "English", l'URL change, on obtiens quels que chose comme ça:
