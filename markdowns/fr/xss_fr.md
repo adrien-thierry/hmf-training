@@ -32,7 +32,8 @@ Je suis un trol \<script>alert("Je suis un gros trol")\</script>
 
 Mon commentaire qui s'affichera sera "Je suis un trol" est a chaque fois que la page sera charger une boite aparaitra avec a l'intérieur "Je suis un gros trol".
 
-
-
-
 [logo]: https://github.com/adrien-thierry/cg-hmf/blob/master/src/champ_deroulant.png "menu deroulant"
+
+# La solution pour s'en protéger
+
+Une fonction existe pour résoudre se probleme, **htmlspecialchars()**.
