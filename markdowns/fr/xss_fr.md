@@ -15,7 +15,7 @@ Se qu'il faut comprendre c'est que "English" est une variable, que l'ont peut ed
 
 Si on remplacer "English" par un petit script :3 ! Par exemple :
 
->http://localhost:81/vulnerabilities/xss_d/?default=\<script>alert("Ah!")</script>
+>http://localhost:81/vulnerabilities/xss_d/?default=\<script>alert("Ah!")\</script>
 
 Quand je valide cette URL une boite d'alerte aparait avec "Ah!" d'afficher !
 
