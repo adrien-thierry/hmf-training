@@ -28,13 +28,13 @@ En partant de cette constatation on peut facilement imaginer tout l'etendue des 
 
 Il est trés fréquent de trouver un espace dedié aux commentaires sur internet, un endroit ou l'on peut laisser une trace, si cet espace n'est pas correctement protégé il est simple d'y glisser du code :3
 
-Imaginon que je laisse un commentaire qui ressemble a ça :
+Imaginons que je laisse un commentaire qui ressemble a ça :
 
 ```
 Je suis un trol \<script>alert("Je suis un gros trol")\</script>
 ```
 
-Mon commentaire qui s'affichera sera "Je suis un trol" est a chaque fois que la page sera charger une boite aparaitra avec a l'intérieur "Je suis un gros trol".
+Mon commentaire qui s'affichera sera "Je suis un trol", et à chaque fois que la page sera chargée, une boite de dialogue aparaitra avec a l'intérieur "Je suis un gros trol".
 
 [logo]: https://github.com/adrien-thierry/cg-hmf/blob/master/src/champ_deroulant.png "menu deroulant"
 
@@ -46,3 +46,5 @@ Elle permet de remplacer les carracteres speciaux par des entités HTML. Exemple
 * Le symbole & devient \&amp;
 * Le symbole " devient \&quot;
 * Le symbole ' devient &\#39;
+
+Pour se protéger des failles XSS, il est essentiel de ne pas faire confiance en l'utilisateur et de nettoyer en permanence ses entrées.
