@@ -26,7 +26,7 @@ Il existe différents type de variables, un int pourra stocker des entier de val
 
 Mintenant que nous avont des variables, parlons des prochain outils.
 
-## La boucle 'tant que' (while)
+## La boucle **tant que** (while)
 
 La boucle while va répeter les opérations **tant que** ...
 Exemple :
@@ -98,3 +98,5 @@ else
 - [x] 3
 
 Vous avez compris ? Parfait !
+
+@[Fait un "Hello World"]({"stubs": ["for_user.c"], "command": "gcc for_user.c ; ./a.out > file.txt ; cat file.txt"})

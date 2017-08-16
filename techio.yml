@@ -37,3 +37,8 @@ projects:
   exo1:
     root: python-project
     runner: python:3
+
+projects:
+  exoc:
+    root: algo_exo
+    runner: sango/c-gcc
