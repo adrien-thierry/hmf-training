@@ -17,7 +17,7 @@ plan:
   - title: Coding
     statement: markdowns/fr/coding_fr.md
   - title: Algorithm
-    statement: markdowns/fr/algorithm_fr_v2.md
+    statement: markdowns/fr/algorithm_fr.md
   - title: Compiled & Interpreted
     statement: markdowns/fr/compiled_fr.md
   - title: Exploiting
