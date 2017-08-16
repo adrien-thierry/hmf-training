@@ -5,6 +5,6 @@ correct = output.readline()
 user = needed.readline()
 
 if correct != user:
-    raise NameError('ERREUR')
+    println "TECHIO> success false"
 else:
     exit(0)
