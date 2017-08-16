@@ -6,7 +6,7 @@ Inversement, un programme effectuant la tache inverse est un décompilateur.
 
 Par exemple, apres avoir écrit un programme en language C, on peut le compilé avec GCC afin d'avoir un executable de notre programme.
 
-`gcc mon-programme.c -o mon-executable`
+`gcc mon_programme.c -o mon_executable`
 
 # Interpréteur
 
