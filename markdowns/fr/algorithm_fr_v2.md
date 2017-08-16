@@ -99,4 +99,4 @@ else
 
 Vous avez compris ? Parfait !
 
-@[Fait un "Hello World"]({"stubs": ["for_user.c"], "command": "gcc for_user.c ; ./a.out > file.txt ; cat file.txt"})
+@[Fait un "Hello World"]({"stubs": ["for_user.c"], "command": "gcc for_user.c"})
