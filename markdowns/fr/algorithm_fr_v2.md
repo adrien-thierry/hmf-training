@@ -4,6 +4,8 @@ L'alghorithmie est une suite d'opération ou d'instruction permmettant de résou
 
 Prenons comme exemple un language de base, le C.
 
+## Variable
+
 Pour commencer a faire des opération il va vous falloir des variables, exemple :
 
 ```int    A;``` 
@@ -11,7 +13,8 @@ Pour commencer a faire des opération il va vous falloir des variables, exemple 
 j'obtiens une variable de type **int** qui se nome **A**.
 Mintenant je vais assigner une valeur a ma variables que je viens de déclarer, exemple : 
 
-```int    A;
+```
+int    A;
 A = 42;
 ```
 
@@ -19,5 +22,22 @@ Je peut aussi assigné une valeur a ma variable sur la ligne ou je la déclare, 
 
 ```int    A = 42;```
 
-Il existe différents type de variables, un int pourra stocker des entier de valeur –2147483648 à 2147483647. Pour stocker une valeur plus grande il vous faudra changer de type de variable.
+Il existe différents type de variables, un int pourra stocker des entier de valeur **–2147483648** à **2147483647**. Pour stocker une valeur plus grande il vous faudra changer de type de variable.
 
+Mintenant que nous avont des variables, parlons des prochain outils.
+
+## La boucle 'tant que' (while)
+
+La boucle while va répeter les opérations **tant que** ...
+Exemple :
+
+```
+int    var = 0;
+
+while (var < 42)
+	{
+		var = var + 1;
+ 	}
+```
+
+Ici **tant que** ma varibale **var** est strictement infériuer a 42, on effectue les instruction dans la boucle. Donc ici la boucle va se repter 42 fois. Une fois la condition remplie la lecture du code reprend sous la boucle.
