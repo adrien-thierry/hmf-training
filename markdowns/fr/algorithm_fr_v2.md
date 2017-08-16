@@ -42,6 +42,16 @@ while (var < 42)
 
 Ici **tant que** ma varibale **var** est strictement infériuer a 42, on effectue les instruction dans la boucle. Donc ici la boucle va se repter 42 fois. Une fois la condition remplie la lecture du code reprend sous la boucle.
 
+## La boucle **pour** (For)
+
+La boucle "for" vous permet de répéter une ou plusieurs instructions tant qu'un test est vérifié. La boucle "for" la plus utilisée consiste à avoir une variable, "i", initialisée à 0 et répéter une instruction tant que "i" est inférieur à un nombre tel que 3. Ainsi, l'instruction contenue dans la boucle "for" sera répété 3 fois. (Une fois à 0, une fois à 1, puis à 2, alors "i" est égal à 3, alors "i" ne vérifie pas la condition d'infériorité à 3). Exemple :
+
+```for(var i = 0; i < 3; i++)
+{
+  console.log(i); // 0, 1, 2
+}
+```
+
 ## Le **Si**, **sinon si**, **sinon** (if, else if, else)
 
 Le si est une condition, exemple :
@@ -57,6 +67,12 @@ if (var == 2)
 
 Ici les instruction dans le if (entre les crochet) ne vont s'executer que si la condition est remplie, **printf()** est une fonction qui permet d'afficher du texte.
 Donc dans le cas present mon programme va bien afficher "var vaut bien 2".
+Voila quels que exemples de condition que l'on peut utiliser dans les condition :
+
+* \> , < , >=, <= (supérieur, inférieur , supérieur ou egal, inférieur ou egal)
+* !=, == (différent, egal)
+
+
 Mintenant si j'ajoute les else, else if, exemple :
 
 ```
@@ -81,5 +97,4 @@ else
 - [ ] 2
 - [x] 3
 
-Vous avez compris ? Parfait ! Exercise mintenant :
-
+Vous avez compris ? Parfait !
