@@ -106,11 +106,20 @@ En Ruby :
 ```while (compteur <= 4)
   print compteur
   compteur += 1
-end```
+end
+```
 
 En Java
 ```
 while (a < b)
 {
   System.out.println("coucou " +a+ " fois !!");
-}```
+}
+```
+
+En Python
+```
+while i < 10
+	print("i")
+	i++;
+```
