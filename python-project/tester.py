@@ -5,6 +5,6 @@ correct = output.readline()
 user = needed.readline()
 
 if correct != user:
-    println "TECHIO> success false"
+    print("TECHIO> success false")
 else:
-    println "Hello World"
+    print("Hello World")
