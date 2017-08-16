@@ -65,4 +65,4 @@ Ici temps que i est inférieur a 10 le code dans la boucle va se répéter. Voil
 * !=, == (différent, egal)
 
 
-@[Fait un "Hello World"]({"stubs": ["universe.py","tester.py"], "command": "python universe.py > file.txt ; python tester.py"})
+@[Fait un "Hello World"]({"stubs": ["universe.py","tester.py"], "command": "python universe.py > file.txt ; echo python tester.py"})
