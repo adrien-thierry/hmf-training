@@ -42,7 +42,7 @@ while (var < 42)
 
 Ici **tant que** ma varibale **var** est strictement infériuer a 42, on effectue les instruction dans la boucle. Donc ici la boucle va se repter 42 fois. Une fois la condition remplie la lecture du code reprend sous la boucle.
 
-## Le Si, sinon si, sinon (if, else if, else)
+## Le **Si**, **sinon si**, **sinon** (if, else if, else)
 
 Le si est une condition, exemple :
 
@@ -80,3 +80,6 @@ else
 - [ ] 1
 - [ ] 2
 - [x] 3
+
+Vous avez compris ? Parfait ! Exercise mintenant :
+
