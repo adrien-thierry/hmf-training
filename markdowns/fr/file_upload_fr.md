@@ -11,7 +11,7 @@ Le but de cette faille est d’uploader un fichier avec une extension non autori
 
 Il existe plusieur methode pour passer les protection, si protection il y a.
 
-Vous pouvez altérer le fichier au moments de l'upload avec 'Tamper Data', un outils du naviagteur de firefox. Grace a c'est outils vous allez pouvoir upload le fichier en tant qu'image.
+Vous pouvez altérer le fichier au moments de l'upload avec '**Tamper Data**', un outils du naviagteur de firefox. Grace a c'est outils vous allez pouvoir upload le fichier en tant qu'image.
 Une fois le fichier upload vous n'avez plus cas y acceder et l'executer avec l'URL.
 
 Deuxieme methode, la double exention.
@@ -25,3 +25,14 @@ On se renda notre fichier.php.gif ?
 >http://monsite.com/fichier.php
 
 Voila !
+
+## Sécurisation 
+
+* Ne jamais se fier à ce que peut envoyer le client.
+* Vérifier la configuration d’Apache afin d’agir en conséquence.
+* Ne pas placer le .htaccess dans le répertoire d’upload
+* Ne pas permettre l’écrasement de fichier
+* Générer un nom aléatoire pour le fichier uploadé et enregistrer le nom dans une base de données.
+* Ne pas permettre de voir l’index of du répertoire d’upload.
+* Assigner les bonnes permissions au répertoire.
+* Vérifier le mime-type avec getimagesize() et l’extension du fichier.
