@@ -30,6 +30,8 @@ plan:
     statement: markdowns/fr/include_fr.md
   - title: File upload
     statement: markdowns/fr/file_upload_fr.md
+  - title: Faille Humaine
+    statement: markdowns/fr/se_fr.md
   
 projects:
   exo1:
