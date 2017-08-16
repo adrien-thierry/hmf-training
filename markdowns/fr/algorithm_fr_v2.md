@@ -17,3 +17,6 @@ A = 42;```
 Je peut aussi assigné une valeur a ma variable sur la ligne ou je la déclare, exemple :
 
 ```int    A = 42;```
+
+Il existe différents type de variables, un int pourra stocker des entier de valeur –2147483648 à 2147483647. Pour stocker une valeur plus grande il vous faudra changer de type de variable.
+
