@@ -99,4 +99,18 @@ else
 
 Vous avez compris ? Parfait !
 
-@[Fait un "Hello World"]({"stubs": ["for_user.c"], "command": "gcc for_user.c", chmod 777 a.out"})
+Vous venez de voir les outils de base pour crée des algorithme en c, c'est outils sont commun a de nombreux languages.
+Quels que exemple de boucle dans d'autre language :
+
+En Ruby :
+```while (compteur <= 4)
+  print compteur
+  compteur += 1
+end```
+
+En Java
+```
+while (a < b)
+{
+  System.out.println("coucou " +a+ " fois !!");
+}```
