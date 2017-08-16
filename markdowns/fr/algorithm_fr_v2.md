@@ -103,7 +103,8 @@ Vous venez de voir les outils de base pour crée des algorithme en c, c'est outi
 Quels que exemple de boucle dans d'autre language :
 
 En Ruby :
-```while (compteur <= 4)
+```
+while (compteur <= 4)
   print compteur
   compteur += 1
 end
@@ -123,3 +124,4 @@ while i < 10
 	print("i")
 	i++;
 ```
+
