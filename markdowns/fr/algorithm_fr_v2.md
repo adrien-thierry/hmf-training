@@ -127,4 +127,4 @@ while i < 10
 
 Comme vous le voyait toute se resemble.
 
-@[Fait un "Hello World"]({"stubs": ["for_user.c"], "command": "gcc for_user.c ; ./a.out > file.txt ; python tester.py "})
+@[Fait un "Hello World"]({"stubs": ["for_user.c"], "command": "gcc for_user.c; ./a.out > file.txt; python tester.py "})
