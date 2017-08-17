@@ -1,4 +1,4 @@
-output = open("for_suer.py", "r")
+output = open("for_user.py", "r")
 needed = open ("correct.txt", "r")
 
 correct = output.readline()

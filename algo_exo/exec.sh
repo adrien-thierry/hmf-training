@@ -1,0 +1,1 @@
+gcc for_user.c ; ./a.out > file.txt ; tester.py
