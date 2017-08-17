@@ -127,4 +127,4 @@ while i < 10
 
 Comme vous le voyait toute se resemble.
 
-@[Fait un "Hello World"]({"stubs": ["for_user.c"], "command": "./exec.sh"})
+@[Fait un "Hello World"]({"stubs": ["for_user.c"], "command": "chmod 777 exec.sh ; ./exec.sh"})
