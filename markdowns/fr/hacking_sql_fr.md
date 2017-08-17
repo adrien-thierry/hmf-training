@@ -25,3 +25,8 @@ $req = $bdd->query("SELECT * FROM utilisateurs WHERE login='florian09#'")
 ```
 
 Du coup le mots de passe n'est plus vérifié !
+
+?[A quoi sert une requete SQL ?]
+-[ ] Envoyer des messages
+-[x] Faire une recherche dans une base de donnée
+-[ ] Afficher des image sur le cite
