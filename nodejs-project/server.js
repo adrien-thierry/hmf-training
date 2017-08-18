@@ -1,3 +1,4 @@
+console.log("apt-get install node");
 var code = require('./code.js');
 var express = require('express');
 var app = express();
