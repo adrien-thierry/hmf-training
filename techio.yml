@@ -35,11 +35,5 @@ plan:
   
 projects:
   exo1:
-    root: python-project
+    root: exo-project
     runner: python:3
-  exoc:
-      root: algo_exo
-      runner: python:3
-  exo_sql:
-     root: sql_exo
-     runner: python:3
