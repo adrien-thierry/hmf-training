@@ -16,4 +16,4 @@ print (user)
 if eOut != user:
     print("TECHIO> success false");
 else:
-    print("Hello World");
+    print("TECHIO> success true");
