@@ -6,7 +6,6 @@ out = Popen(commande,stdout=PIPE);
 
 _exec = Popen(["./a.out"], stdout=PIPE);
 (eOut, eErr) = _exec.communicate();
-print (eOut)
 
 needed = open ("correct.txt", "r");
 user = needed.readline();
