@@ -13,7 +13,6 @@ user = needed.readline();
 eOut = eOut.decode("utf-8");
 
 print (eOut);
-print (user);
 
 if eOut != user:
     print("TECHIO> success false");
