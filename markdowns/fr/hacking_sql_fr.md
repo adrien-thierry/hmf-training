@@ -31,4 +31,10 @@ Du coup le mots de passe n'est plus vérifié !
 -[x] Faire une recherche dans une base de donnée
 -[ ] Afficher des images sur le cite
 
+| Titre         | Date de sortie| Genre |
+| :------------ |:-------------:| :-----:|
+| Avatar        | 2009          |Fantasy|
+| Matrix      | 1999     |   Science-fiction |
+| Les Goonies |  1985 |    Ation |
+
 @[Affiche tout les films peut importe leur genres !]({"stubs": ["for_user_sql.txt"], "command": "python tester_sql.py", "project":"exo2"})
