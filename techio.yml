@@ -44,5 +44,5 @@ projects:
     runner: python:3
 
   exo3:
-    root: www
+    root: nodejs-project
     runner: python:3
