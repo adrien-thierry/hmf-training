@@ -39,7 +39,7 @@ Du coup le mots de passe n'est plus vérifié !
 
 La requete dans l'exercice ci-dessous peut se traduire par : "Sélectionne **tout** dans la colone **titre** où le genre vaut **aventure**". Fais en sorte de transformer la requête pour que tous les genres soient selectionnés.
 
-@[Launch the server]({ "stubs": ["code.js", "index.html", "server.js"], "command": "node server.js" })
+@[Launch the server]({ "stubs": ["code.js", "index.html", "server.js"], "command": "node server.js" "project": "exo1" })
 
 :::Besoin d'aide ?
 Utilise le '#' pour commenter la partie du code que tu veux rendre inopérante.
