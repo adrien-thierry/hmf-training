@@ -37,10 +37,10 @@ Du coup le mots de passe n'est plus vérifié !
 | Matrix      | 1999     |   Science-fiction |
 | Les Goonies |  1985 |    Ation |
 
-La requete dans l'exercise ci-dessous peut se traduire "Selectione **tout** dans la colone **titre** ou le genre vaut **aventure**". Fait en sorte de transphormer la requete pour que tout les genre sois selectioner.
+La requete dans l'exercise ci-dessous peut se traduire "Selectione **tout** dans la colone **titre** ou le genre vaut **aventure**". Fait en sorte de transformer la requete pour que tout les genre sois selectioner.
 
-@[Affiche tout les films peut importe leur genres !]({"stubs": ["for_user_sql.txt"], "command": "python tester_sql.py", "project":"exo2"})
+@[Affiche tout les films peu importe leur genres!]({"stubs": ["for_user_sql.txt"], "command": "python tester_sql.py", "project":"exo2"})
 
 :::Besoin d'aide ?
-Utilise le '#' pour commenter la partie du code que tu veut rendre inopérante.
+Utilise le '#' pour commenter la partie du code que tu veux rendre inopérante.
 :::
