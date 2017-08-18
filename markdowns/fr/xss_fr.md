@@ -40,10 +40,6 @@ Imaginons que je laisse un commentaire qui ressemble a ça :
 
 ![alt text](https://raw.githubusercontent.com/adrien-thierry/hmf-training/master/src/xss_perma.PNG "xss_perma")
 
-```
-Je suis un trol \<script>alert("Je suis un gros trol")\</script>
-```
-
 Mon commentaire qui s'affichera sera "Je suis un trol", et à chaque fois que la page sera chargée, une boite de dialogue aparaitra avec a l'intérieur "Je suis un gros trol".
 
 
