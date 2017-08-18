@@ -45,4 +45,4 @@ projects:
 
   exo3:
     root: nodejs-project
-    runner: mc2labs/nodejs
+    runner: techio/node-npm-runner:latest
