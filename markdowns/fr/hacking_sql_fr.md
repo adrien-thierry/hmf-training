@@ -42,4 +42,5 @@ La requete dans l'exercise si-dessous peut se traduire "Selectione **tout** dans
 @[Affiche tout les films peut importe leur genres !]({"stubs": ["for_user_sql.txt"], "command": "python tester_sql.py", "project":"exo2"})
 
 :::Besoin d'aide ?
-Utilise le '#' pour commenter la partie du code que tu veut rendre inopérante.:::
+Utilise le '#' pour commenter la partie du code que tu veut rendre inopérante.
+:::
