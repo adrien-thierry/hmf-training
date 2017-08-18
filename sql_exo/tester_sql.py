@@ -1,6 +1,9 @@
 output = open("for_user_sql.txt", "r").readline();
 needed = open ("correct_sql.txt", "r").readline();
 
+print (output)
+print (needed)
+
 if output.find("#") > -1:
 
 	correct = output.split("#")[0]
