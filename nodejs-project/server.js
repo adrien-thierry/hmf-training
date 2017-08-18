@@ -15,5 +15,5 @@ app.get('/ajax', function(req, res) {
 
 console.log("Opening the server");
 app.listen(8080);
-console.log('TECHIO> open -p 8080 /');
+console.log('TECHIO> open -p 8080 /nodejs-project');
 console.log("Server opened");
