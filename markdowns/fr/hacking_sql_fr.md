@@ -31,4 +31,4 @@ Du coup le mots de passe n'est plus vérifié !
 -[x] Faire une recherche dans une base de donnée
 -[ ] Afficher des images sur le cite
 
-@[Affiche tout les films peut importe leur genres !]({"stubs": ["for_user_sql.txt"], "command": "python tester_sql.py"})
+@[Affiche tout les films peut importe leur genres !]({"stubs": [], "command": "python tester_sql.py"})
