@@ -36,7 +36,7 @@ Je suis un trol \<script>alert("Je suis un gros trol")\</script>
 
 Mon commentaire qui s'affichera sera "Je suis un trol", et à chaque fois que la page sera chargée, une boite de dialogue aparaitra avec a l'intérieur "Je suis un gros trol".
 
-[logo]: https://github.com/adrien-thierry/cg-hmf/blob/master/src/champ_deroulant.PNG "menu deroulant"
+![alt text](https://github.com/adrien-thierry/hmf-training/blob/master/src/champ_deroulant.PNG "menu déroulant")
 
 # La solution pour s'en protéger
 

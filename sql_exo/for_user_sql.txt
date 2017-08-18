@@ -1,1 +1,1 @@
-SELECT * FROM titre_film WHERE genre = AVENTURE
+SELECT * FROM titre WHERE genre = AVENTURE
