@@ -43,7 +43,6 @@ Imaginons que je laisse un commentaire qui ressemble a ça :
 
 Mon commentaire qui s'affichera sera "Je suis un trol", et à chaque fois que la page sera chargée, une boite de dialogue aparaitra avec a l'intérieur "Je suis un gros trol".
 
-@[Affiche un "Hello World" avec une faille xss!]({"stubs": [""], "command": "python viewer.py", "project":"exo1"})
 
 # La solution pour s'en protéger
 
