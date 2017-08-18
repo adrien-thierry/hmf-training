@@ -45,4 +45,4 @@ projects:
 
   exo3:
     root: nodejs-project
-    runner: python:3
+    runner: google/nodejs
