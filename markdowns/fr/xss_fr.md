@@ -38,6 +38,8 @@ Il est trés fréquent de trouver un espace dedié aux commentaires sur internet
 
 Imaginons que je laisse un commentaire qui ressemble a ça :
 
+![alt text](https://raw.githubusercontent.com/adrien-thierry/hmf-training/master/src/xss_perma.PNG "xss_perma")
+
 ```
 Je suis un trol \<script>alert("Je suis un gros trol")\</script>
 ```
