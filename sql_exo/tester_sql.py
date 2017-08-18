@@ -1,8 +1,8 @@
 output = open("for_user_sql.txt", "r")
 needed = open ("correct_sql.txt", "r")
 
-if(output.index("#") > -1)
-{
+if output.index("#") > -1
+
 	correct = output.readline().split("#")[0]
 	user = needed.readline()
 
@@ -11,5 +11,4 @@ if(output.index("#") > -1)
 	else:
 	    print("Bien :)")
 
-}
 else print("TECHIO> success false")
