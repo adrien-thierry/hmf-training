@@ -37,3 +37,6 @@ projects:
   exo1:
     root: exo-project
     runner: python:3
+  exo2:
+    root: sql_exo
+    runner: python:3
