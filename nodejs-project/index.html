@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+      function callServer() {
+        $.get( "/ajax", function( data ) {
+          $("#result").html(data);
+        });
+      }
+    </script>
+  </head>
+  <body>
+    <button onclick="callServer()">Execute the code on the server</button>
+    Result: <div id="result"></div>
+  </body>
+</html>
