@@ -1,1 +1,1 @@
-print "TECHIO> open -s /project/exo1/html"
+print("TECHIO> open -s /project/exo1/html")
