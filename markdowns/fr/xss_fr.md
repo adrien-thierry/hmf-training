@@ -23,6 +23,8 @@ Si on remplacer "English" par un petit script :3 ! Par exemple :
 
 >http://localhost:81/vulnerabilities/xss_d/?default=\<script>alert("Ah!")\</script>
 
+![alt text](https://raw.githubusercontent.com/adrien-thierry/hmf-training/master/src/ah!.PNG "ah!")
+
 Quand je valide cette URL une boite d'alerte aparait avec "Ah!" d'affiché !
 En partant de cette constatation on peut facilement imaginer tout l'etendue des possibilités offertes par l'exploitation de cette faille :
 * Récupération de cookies
