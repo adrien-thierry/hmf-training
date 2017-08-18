@@ -10,8 +10,8 @@ _exec = Popen(["./a.out"], stdout=PIPE);
 needed = open ("correct.txt", "r");
 user = needed.readline();
 
-#print (eOut)
-#print (user)
+print (eOut)
+print (user)
 
 if eOut != user:
     print("TECHIO> success false");
