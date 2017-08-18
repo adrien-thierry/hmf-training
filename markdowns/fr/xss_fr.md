@@ -38,7 +38,8 @@ Il est trés fréquent de trouver un espace dedié aux commentaires sur internet
 
 Imaginons que je laisse un commentaire qui ressemble a ça :
 
-![alt text](https://raw.githubusercontent.com/adrien-thierry/hmf-training/master/src/xss_perma.PNG "xss_perma")
+![alt text](https://raw.githubusercontent.com/adrien-thierry/hmf-training/master/src/xss_perma2.PNG "xss_perma")
+
 
 Mon commentaire qui s'affichera sera "Je suis un trol", et à chaque fois que la page sera chargée, une boite de dialogue aparaitra avec a l'intérieur "Je suis un gros trol".
 
