@@ -7,7 +7,11 @@ Il existe plusieurs types de faille xss,
 ## La faille xss éphemere
 
 Imaginons que j'ai un champ deroulant qui me propose de choisir un pays.
+
+![alt text](https://raw.githubusercontent.com/adrien-thierry/hmf-training/master/src/champ_deroulant.PNG "menu déroulant")
+
 Une fois avoir selectioner un pays, ici "English", l'URL change, on obtiens quelque chose comme ça:
+
 
 >http://localhost/vulnerabilities/xss_d/?default=English
 
@@ -36,7 +40,7 @@ Je suis un trol \<script>alert("Je suis un gros trol")\</script>
 
 Mon commentaire qui s'affichera sera "Je suis un trol", et à chaque fois que la page sera chargée, une boite de dialogue aparaitra avec a l'intérieur "Je suis un gros trol".
 
-![alt text](https://raw.githubusercontent.com/adrien-thierry/hmf-training/master/src/champ_deroulant.PNG "menu déroulant")
+
 
 # La solution pour s'en protéger
 
