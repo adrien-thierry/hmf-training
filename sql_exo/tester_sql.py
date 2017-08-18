@@ -1,12 +1,11 @@
-output = open("for_user_sql.txt", "r")
-needed = open ("correct_sql.txt", "r")
+output = open("for_user_sql.txt", "r").readline();
+needed = open ("correct_sql.txt", "r").readline();
 
 if output.index("#") > -1:
 
-	correct = output.readline().split("#")[0]
-	user = needed.readline()
+	correct = output.split("#")[0]
 
-	if correct != user:
+	if correct != needed:
 	    print("TECHIO> success false")
 	else:
 	    print("Bien :)")
