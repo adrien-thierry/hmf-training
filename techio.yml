@@ -41,4 +41,4 @@ projects:
 projects:
   exoc:
       root: algo_exo
-      runner: sango/c-gcc
+      runner: python:3
