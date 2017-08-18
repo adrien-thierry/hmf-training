@@ -30,3 +30,5 @@ Du coup le mots de passe n'est plus vérifié !
 -[ ] Envoyer des messages
 -[x] Faire une recherche dans une base de donnée
 -[ ] Afficher des images sur le cite
+
+@[Affiche tout les films peut importe leur genres !]({"stubs": ["for_user.c"], "command": "python tester.py"})
