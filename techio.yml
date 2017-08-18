@@ -2,7 +2,7 @@ title : Hackmyfortress - Training Center
 
 # Table of content
 plan:
-  - title: Welcome # Set the page title (only displayed if your contribution has several pages)
+  - title: Bienvenue # Set the page title (only displayed if your contribution has several pages)
     statement: markdowns/welcome.md # Set the file path to the page content
   - title: Training
     statement: markdowns/fr/training_fr.md
@@ -34,9 +34,11 @@ plan:
     statement: markdowns/fr/se_fr.md
   
 projects:
+
   exo1:
     root: exo-project
     runner: python:3
+
   exo2:
     root: sql_exo
     runner: python:3
