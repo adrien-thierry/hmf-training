@@ -17,6 +17,8 @@ Une fois avoir selectioner un pays, ici "English", l'URL change, on obtiens quel
 
 Ce qu'il faut comprendre c'est que "English" est une variable, que l'ont peut éditer !  Si dans l'URL je modifie "English" en "Franglais" et que je valide, hop je me retrouve avec "Franglais" dans le champ.
 
+![alt text](https://raw.githubusercontent.com/adrien-thierry/hmf-training/master/src/Franglais.PNG "Franglais")
+
 Si on remplacer "English" par un petit script :3 ! Par exemple :
 
 >http://localhost:81/vulnerabilities/xss_d/?default=\<script>alert("Ah!")\</script>
