@@ -4,7 +4,7 @@ needed = open ("correct_sql.txt", "r").readline();
 if output.find("#") > -1:
 
 	correct = output.split("#")[0]
-
+	print (correct)
 	if correct != needed:
 	    print("TECHIO> success false")
 	else:
