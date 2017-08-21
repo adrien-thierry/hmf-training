@@ -5,6 +5,7 @@ if output.find("#") > -1:
 
 	correct = output.split("#")[0]
 	print (correct)
+	print (needed)
 	if correct != needed:
 	    print("TECHIO> success false")
 	else:
