@@ -1,6 +1,6 @@
 from subprocess import *
 
-commande = ["gcc", "for_user.c"];
+commande = ["gcc", "for_user.c", "main.c"];
 out = Popen(commande,stdout=PIPE);
 (sout,serr) = out.communicate();
 
@@ -10,8 +10,9 @@ _exec = Popen(["./a.out"], stdout=PIPE);
 needed = open ("correct.txt", "r");
 user = needed.readline();
 
-#print (eOut)
-#print (user)
+eOut = eOut.decode("utf-8");
+
+print (eOut);
 
 if eOut != user:
     print("TECHIO> success false");
