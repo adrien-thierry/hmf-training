@@ -45,4 +45,4 @@ projects:
 
   exo3:
     root: nodejs-project
-    runner: EdBoraas/apache-docker
+    runner: mysql/mysql-server
