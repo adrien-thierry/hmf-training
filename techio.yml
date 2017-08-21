@@ -45,4 +45,4 @@ projects:
 
   exo3:
     root: nodejs-project
-    runner: mysql/mysql-server
+    runner: apache/nutch
