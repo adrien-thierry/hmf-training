@@ -150,4 +150,5 @@ i = 97;
 my_putchar(i);
 ```
 
-La variable i contiens une valeur decimal qui vaut le caractere 'a' donc je vais bien afficher un 'a':::
+La variable i contiens une valeur decimal qui vaut le caractere 'a' donc je vais bien afficher un 'a'
+:::
