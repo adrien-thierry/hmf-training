@@ -139,4 +139,15 @@ Pour réussir c'est exercise vous aller avoir besoin de regarder le **tableau as
 - [x] 97
 - [ ] 61
 
-@[2cris une fonction qui va afficher l'alphabet]({"stubs": ["for_user.c"], "project":"exo1bis", "command": "python test_for_user.py"})
+@[Ecris une fonction qui va afficher l'alphabet]({"stubs": ["for_user.c"], "project":"exo1bis", "command": "python test_for_user.py"})
+
+::: Un indice ?
+Supposont que je déclare une variable de type **int** qui sapelle **i**, je dit que "i = 97". 
+
+```
+int i;
+i = 97;
+my_putchar(i);
+```
+
+La variable i contiens une valeur decimal qui vaut le caractere 'a' donc je vais bien afficher un 'a':::
