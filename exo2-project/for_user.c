@@ -1,4 +1,4 @@
-int		diso_alpha()
+int		disp_alpha()
 {
 	//écris ton code ici
 }
