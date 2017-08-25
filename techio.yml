@@ -4,23 +4,23 @@ title : Hackmyfortress - Training Center
 plan:
   - title: Bienvenue # Set the page title (only displayed if your contribution has several pages)
     statement: markdowns/welcome.md # Set the file path to the page content
-  - title: Training
+  - title: Le cours
     statement: markdowns/fr/training_fr.md
-  - title: Starting
+  - title: Démarrer
     statement: markdowns/fr/starting_fr.md
-  - title: Computer
+  - title: Ordinateur
     statement: markdowns/fr/computer_fr.md
-  - title: Protocol
+  - title: Protocoles
     statement: markdowns/fr/protocol_fr.md
   - title: Communication
     statement: markdowns/fr/communication_fr.md
-  - title: Coding
+  - title: Coder
     statement: markdowns/fr/coding_fr.md
-  - title: Algorithm
+  - title: Algorithmie
     statement: markdowns/fr/algorithm_fr_v2.md
-  - title: Compiled & Interpreted
+  - title: Compilation et interprétation
     statement: markdowns/fr/compiled_fr.md
-  - title: Exploiting
+  - title: Exploiter
     statement: markdowns/fr/exploiting_fr.md
   - title: Injection SQL
     statement: markdowns/fr/hacking_sql_fr.md
@@ -28,7 +28,7 @@ plan:
     statement: markdowns/fr/xss_fr.md
   - title: Faille include
     statement: markdowns/fr/include_fr.md
-  - title: File upload
+  - title: Upload de fichier
     statement: markdowns/fr/file_upload_fr.md
   - title: Faille Humaine
     statement: markdowns/fr/se_fr.md
