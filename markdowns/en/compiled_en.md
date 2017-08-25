@@ -1,6 +1,6 @@
 # Compiler & Decompiler
 
-A compiler is the term used to designate a program that transforms a written source code into a programming language into another computer language.
+A compiler is the term used to designate a program that transforms a written source code in a programming language into another computer language.
 It transforms a simple language comprehensible by man into a more complex language comprehensible by machine, machine language.
 Conversely, a program performing the inverse stain is a decompiler.
 

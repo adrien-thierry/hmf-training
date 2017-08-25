@@ -2,7 +2,7 @@
 
 It is the art, the science of manipulating people in order to get something from them without them realizing it. Influence or abuse of a person's confidence in obtaining property or information generally about a computer system (password, sensitive data). It is therefore the famous human fault.
 
-Social Engineering does not require high technical competence, and can therefore be practiced by everyone. Entiviruses do not protect you from the social engeenering.
+Social Engineering does not require high technical competence, and can therefore be practiced by everyone. Anti-virus do not protect you from the social engeenering.
 
 ? [How to protect yourself?]
 - [x] Never give sensitive information on the Internet to someone you do not know physically

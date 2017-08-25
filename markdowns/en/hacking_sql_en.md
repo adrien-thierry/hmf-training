@@ -3,8 +3,8 @@
 SQL is a query language. A query language is a computer language used to access data in a database
 SQL injection is a very well known method of attack. It is an extremely powerful attack vector when it is well exploited. It consists in modifying an SQL query by injecting unfiltered pieces of code, usually by means of a form.
 
-If you want to connect to the administration area of ​​a site, you will be asked to fill in the "login" and "password" fields. These two informations will be used to search the database of the site if your account exists.
-SQL injection consents to send in the connection fields code that will be added as a result of the SQL query to modify its behavior and, for example, to authenticate itself without a password.
+If you want to connect to the administration area of ​​a site, you will be asked to fill in the "login" and "password" fields. These two information will be used to search the database of the site if your account exists.
+SQL injection consents to send in the connected fields code that will be added as a result of the SQL query to modify its behavior and, for example, to authenticate itself without a password.
 
 ```
 //Exemple of SQL request

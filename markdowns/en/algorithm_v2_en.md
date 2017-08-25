@@ -27,7 +27,7 @@ Now that we have variables, let's talk about the next tools.
 
 ## **while**
 
-The while loop will repeat operations ** as long as ** ...
+The 'while' loop will repeat operations ** as long as ** ...
 Example:
 
 ```
@@ -60,12 +60,12 @@ int     var = 2;
 
 if (var == 2)
 	{
-		printf("var vaut bien 2");
+		printf("var = 2");
 	}
 ```
 
 Here the statements in the if (between the brackets) will only be executed if the condition is true, ** printf () ** is a function that allows to display text.
-So in this case my program will show "var is good 2".
+So in this case my program will show "var = 2".
 These are examples of conditions that can be used in the following conditions:
 
 * \> , < , >=, <= (Upper, lower, higher or equal, lower or equal)
@@ -129,9 +129,9 @@ As you saw it all resembled.
 
 @[Do an "Hello World"]({"stubs": ["for_user.c"], "project":"exo1", "command": "python test_for_user.py"})
 
-It was simple hien :)
-Go to a more complex, I ask you to produce code that will display the alphabet. "Printf (" abcdefghijklmnopqrstuvwxyz ");" Tell me you? ** Interdicton to use the printf ** function. You will use a ** while loop **, ** a variable ** and the ** my_putchar () ** function that displays the parameter you pass to it between parentheses.
-To succeed it's exercise you'll need to look at the ** ascii table **. In this table you will see that decimal values ​​represent characters. Take a look [MAN ASCII](http://www.linux-france.org/article/man-fr/man7/ascii-7.html)
+It was simple :)
+Go to a more complex, I ask you to produce code that will display the alphabet. "Printf (" abcdefghijklmnopqrstuvwxyz ");" You say ? ** Interdiction to use the printf ** function. You will use a ** while loop **, ** a variable ** and the ** my_putchar () ** function that displays the parameter you pass to it between the parentheses.
+To succeed it's exercise you'll need to look at the ** ascii table **. In this table you will see that decimal value ​​represent characters. Take a look [MAN ASCII](http://www.linux-france.org/article/man-fr/man7/ascii-7.html)
 
 ?[Which decimal value is the character 'a' ?]
 - [ ] 65

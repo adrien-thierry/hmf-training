@@ -4,4 +4,5 @@ Pour développer des API ou des services, et savoir les hacker, vous devez appre
 
 ## Quelques généralités
 
- There are several ways of designing and implementing programs. There are usually two ways. Either by using a compiler, which will transpose the source code into binary executable, directly comprehensible by the machine. Either by interpreting the code, ie the source code is read by an interpreter, which transposes the source code into instructions that can be understood by the computer.
+Il existe plusieurs façons de concevoir et de mettre en œuvre des programmes. Il existe généralement deux façons. Soit en utilisant un compilateur, qui transpose le code source en exécutable binaire, directement compréhensible par la machine. Soit en interprétant le code, c'est-à-dire que le code source est lu par un interprète, qui transpose le code source dans des instructions qui peuvent être comprises par l'ordinateur.
+

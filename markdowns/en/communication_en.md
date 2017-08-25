@@ -1,10 +1,10 @@
 # Communication
 
-With protocols and services, computers can discuss together. APIs allow developers to communicate more easily with services.
+With protocols and services, computers can discuss together. APIs allows developers to communicate more easily with services.
 
 # APIs
 
-API is an acronym for Applications Programming Interface. An API is a programming interface that allows you to 'plug in' to an application to exchange data. An API is opened and proposed by the program owner. APIs are used in different areas of digital marketing.
+API is an acronym for Applications Programming Interface. An API is a programming interface that allows you to 'plug in' to an application to exchange data. An API is proposed and opened by the program owner. APIs are used in different areas of digital marketing.
 
 ## SOAP
 
@@ -12,5 +12,5 @@ SOAP (former acronym for Simple Object Access Protocol) is an object-oriented RP
 
 ## REST
 
-REST (Representational State Transfer) is an architecture style that is based on the HTTP protocol: A resource (via its unique URI) is accessed to perform various operations (GET read, POST write, PUT modification, DELETE deletion). These operations are natively supported by HTTP.
+REST (Representational State Transfer) is an architecture style that is based on the HTTP protocol: A resource (via its unique URI) is accessed to perform various operations (GET read, POST writes, PUT modification, DELETE deletion). These operations are natively supported by HTTP.
 
