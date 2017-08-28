@@ -47,6 +47,6 @@ projects:
     root: sql_exo
     runner: python:3
 
-  #exo3:
-    #root: nodejs-project
-    #runner: linode/lamp
+  exo3:
+    root: nodejs-project
+    runner: tutum/lamp
