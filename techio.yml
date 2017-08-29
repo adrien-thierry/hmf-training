@@ -49,4 +49,4 @@ projects:
 
   exo3:
     root: nodejs-project
-    runner: tutum/lamp
+    runner: florianbord2/hmf
