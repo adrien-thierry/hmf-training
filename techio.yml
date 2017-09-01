@@ -49,4 +49,4 @@ projects:
 
   exo3:
     root: nodejs-project
-    runner: florianbord2/hmf
+    runner: florianbord2/fortressjs
