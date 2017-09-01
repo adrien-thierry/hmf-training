@@ -58,6 +58,7 @@ function WorkerService()
       // RUN SERVERS
       wf.Srv.Run(); // RUN THE SERVER
       wf.eventEmitter.emit("run"); // LAUNCH RUN EVENT
+      console.log("TECHIO> open -p 8080");
 
   };
 
