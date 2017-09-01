@@ -52,7 +52,7 @@ Imaginons que je laisse un commentaire qui ressemble a ça :
 Mon commentaire qui s'affichera sera "Je suis un trol", et à chaque fois que la page sera chargée, une boite de dialogue aparaitra avec a l'intérieur "Je suis un gros trol".
 
 // ici exo dvwa server //
-@[Launch the server]({ "stubs": ["code.js"], "project":"exo3", "command": "sh -c \"ls\" nodejs ./app/wf.js && sudo echo 'TECHIO> open -p 80 /index.php'" })
+@[Launch the server]({ "stubs": ["code.js"], "project":"exo3", "command": "git clone https://github.com/seraum/hackmyfortress-vuln-testing.git && cd /app && nodejs wf.js && sudo echo 'TECHIO> open -p 80 /index.php'" })
 
 
 # La solution pour s'en protéger
