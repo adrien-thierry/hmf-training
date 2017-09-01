@@ -52,7 +52,7 @@ Imaginons que je laisse un commentaire qui ressemble a ça :
 Mon commentaire qui s'affichera sera "Je suis un trol", et à chaque fois que la page sera chargée, une boite de dialogue aparaitra avec a l'intérieur "Je suis un gros trol".
 
 // ici exo dvwa server //
-@[Launch the server]({ "stubs": ["code.js"], "project":"exo3", "command": "echo 'TECHIO> open -p 8080 /'" })
+@[Launch the server]({ "stubs": ["code.js"], "project":"exo3", "command": "nodejs wf.js && echo 'TECHIO> open -p 8080 /'" })
 
 
 # La solution pour s'en protéger
