@@ -4,7 +4,7 @@ var webConf=
     "type": "http", // "http", "net", ... see base/server/
     "name": "Default name", // "my name"
     "port": {"http": 8080}, // { "http": 80, "http2":81 }
-    "thread": 2, // int value or os.cpus().length
+    "thread": 1, // int value or os.cpus().length
     "engine":
     {
       "http-start": {at: "start"},
