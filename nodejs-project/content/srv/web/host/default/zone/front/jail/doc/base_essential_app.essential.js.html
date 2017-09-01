@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Source: base/essential/app.essential.js</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+
+    <h1 class="page-title">Source: base/essential/app.essential.js</h1>
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/*
+ * This file is part of FortressJS - Fast, secure, powerful and simple I/O framework
+ * Copyright (c) 2014-2016 Adrien THIERRY
+ * http://fortressjs.com - http://seraum.com
+ *
+ * sources : https://github.com/seraum/fortressjs
+ *
+ * this program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program. If not, see &lt;http://www.gnu.org/licenses/>.
+ *
+ * You can be released from the requirements of the license by purchasing
+ * a commercial license. Buying such a license is mandatory as soon as you
+ * develop commercial activities involving the FortressJS software without
+ * disclosing the source code of your own applications. Visit http://seraum.com/
+ * and feel free to contact us.
+ *
+ */
+
+/**
+ * @namespace App
+ * @description App module file description
+ * @param config {object} config object initialized at server start
+ *
+ * @example function myApp(config)
+ *  {
+ *
+ *     this.code = function(req, res)
+ *     {
+ *         req.continue = false; // stop the app loop for this request
+ *
+ *         res.end('Hello, world !');
+ *     }
+ *
+ *     this.runOnce = function()
+ *     {
+ *       // do something here, it will be called only on 1 thread
+ *     }
+ *
+ *     // we forge a route
+ *     wf.Router.GET('*', '/about', routeCallback);
+ *
+ *     function routeCallback(req, res)
+ *     {
+ *       // do something here, it will be called when route match
+ *     }
+ *  }
+*/
+
+/**
+ * @method code
+ * @description method that is called at each request loop
+ * @memberof App
+ * @param req {object} http request object
+ * @param res {object} http response object
+ *
+*/
+
+/**
+ * @method runOnce
+ * @memberof App
+ * @description method that is called only on one thread
+ *
+*/
+
+
+module.exports.LoadApps = LoadApps;
+
+var wf = WF();
+
+global.next = function(req, res){ process.nextTick(function() { UTILS.LoopExec(req, res); }); };
+
+function LoadApps()
+{
+	wf.parseServers(cbApps);
+}
+
+function parseApp(srv, appPath, root, current)
+{
+	var confModule = new wf.AppClass.App(root, current);
+	if(confModule.appState &amp;&amp; confModule.init.state)
+	{
+		var newModule = {};
+		try
+		{
+			var loadedModule = require(root + confModule.name + "/" + confModule.name + wf.CONF.APP_END);
+			if(loadedModule &amp;&amp; typeof loadedModule == "function")
+			{
+				newModule = new loadedModule(confModule);
+				if(newModule.code !== undefined &amp;&amp; typeof newModule.code === "function") newModule.execute = true;
+			}
+		}
+		catch(e) { console.log("Error in App : " +  root + confModule.name + "/" + confModule.name + wf.CONF.APP_END);}
+		wf.SERVERS[srv].APPS[appPath].push(
+		{
+		'	path': root, 'name': confModule.name, 'init': confModule.init, 'place': appPath, 'exec': newModule, 'view': confModule.view,
+		});
+	}
+}
+
+function parseAppContainer(srv, rootPath, appPath)
+{
+	wf.SERVERS[srv].APPS[appPath] = [];
+	var tmpDir = rootPath + appPath + "/";
+	if(fs.lstatSync(tmpDir).isDirectory())
+	{
+		var tmpArray = fs.readdirSync(tmpDir);
+		for(var m = 0; m &lt; tmpArray.length; m++)
+		{
+			parseApp(srv, appPath, tmpDir, tmpArray[m]);
+		}
+		wf.SERVERS[srv].APPS[appPath].sort(function(a, b){return a.init.pos - b.init.pos;});
+		var result = wf.SERVERS[srv].APPS[appPath];
+		wf.SERVERS[srv].APPS[appPath] = result;
+	}
+}
+
+function cbApps(s)
+{
+	var rootPath = wf.CONF.SRV_PATH + s + '/' + wf.CONF.APP_FOLDER;
+	wf.SERVERS[s].APPS = {};
+	if(fs.existsSync(rootPath) &amp;&amp; fs.lstatSync(rootPath).isDirectory())
+	{
+		var appPath = fs.readdirSync(rootPath);
+		for(var p = 0; p &lt; appPath.length; p++)
+		{
+			parseAppContainer(s, rootPath, appPath[p]);
+		}
+	}
+}
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="WF.Config.html">Config</a></li><li><a href="WF.Crypto.html">Crypto</a></li><li><a href="WF.httpUtil.html">httpUtil</a></li><li><a href="WF.Model.html">Model</a></li><li><a href="WF.Router.html">Router</a></li></ul><h3>Namespaces</h3><ul><li><a href="App.html">App</a></li><li><a href="Engine.html">Engine</a></li><li><a href="fileUtil.html">fileUtil</a></li><li><a href="Page.html">Page</a></li><li><a href="Plugin.html">Plugin</a></li><li><a href="Process.html">Process</a></li><li><a href="WF.html">WF</a></li></ul>
+</nav>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.4.0</a> on Wed Aug 24 2016 11:20:04 GMT+0200 (CEST)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>

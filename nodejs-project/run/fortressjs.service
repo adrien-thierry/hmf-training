@@ -1,0 +1,10 @@
+[Unit]
+Description=FortressJS Service
+
+[Service]
+Type=forking
+ExecStart=/opt/fortressjs/run/fortressjs.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
