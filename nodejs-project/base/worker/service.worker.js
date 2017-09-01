@@ -58,7 +58,10 @@ function WorkerService()
       // RUN SERVERS
       wf.Srv.Run(); // RUN THE SERVER
       wf.eventEmitter.emit("run"); // LAUNCH RUN EVENT
-      console.log("TECHIO> open -p 8080");
+      var tPath = "/";
+      if(process.argv.length > 2 && process.argv[2]) tPath = process.argv[2];
+      console.log("TECHIO> open -p 8080 " + tPath);
+	  
 
   };
 
