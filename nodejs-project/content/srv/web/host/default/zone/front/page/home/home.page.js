@@ -32,6 +32,7 @@ function homePage(ok)
 {
     this.code = function(req, res)
     {
+           console.log(req.get);
         res.end(this.view.home);
     };
 }
