@@ -54,6 +54,8 @@ Mon commentaire qui s'affichera sera "Je suis un trol", et à chaque fois que la
 // ici exo dvwa server //
 @[Launch the server]({ "stubs": ["code.js"], "project":"exo3", "command": "nodejs wf.js" })
 
+// example
+@[Launch the server]({ "stubs": ["code.js"], "project":"exo3", "command": "nodejs wf.js /about" })
 
 # La solution pour s'en protéger
 
