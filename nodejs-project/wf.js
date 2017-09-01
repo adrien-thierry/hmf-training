@@ -56,5 +56,3 @@ if(Object.keys(wf.SERVERS).length == 0)
   // prevent to stop FortressJS if nothing is in the eventLoop
   var forever = setInterval(function(){}, 1000 * 60 * 60 * 24 * 7);
 }
-
-console.log("TECHIO> open -p 8080");
