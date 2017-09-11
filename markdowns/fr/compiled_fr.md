@@ -28,4 +28,4 @@ Là où votre compilateur compile votre code une seule fois et génére un execu
 * Un programme compilé est exécuté à partir d'un bloc en langage machine issu de la traduction du fichier source.
 * Un langage "semi-interprété" ou "semi-compilé" comprend un interpéreur qui lit le langage cible avant de générer un "Bytecode". Une machine virtuelle va ensuite exécuter ce bytecode. Le langage semi-interprété le plus connu est le Java.
 
-@[Décommente le code et exécute le pour réussir l'exercice]({"project":"interpreter", "stubs": ["hello.c"], "command": "./install.sh"})
+@[Décommente le code et exécute le pour réussir l'exercice]({"project":"interpreter", "stubs": ["hello.py"], "command": "./install.sh"})
