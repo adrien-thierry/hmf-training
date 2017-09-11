@@ -10,6 +10,7 @@ function homePage(ok)
 	var uri = req.url.split("?");
 	if(uri[1]) uri = uri[1]
 	else uri = "";
+	console.log(uri);
         if(req.get.id && req.get.id =="'") console.log("TECHIO> success true");
         
 	var view = this.view.home.toString();
