@@ -6,11 +6,12 @@ function homePage(ok)
 {
     this.code = function(req, res)
     {
+	var url = "salit/dotcom.de";
 	console.log(req.url);
 	var uri = req.url.split("?");
 	if(uri[1]) uri = uri[1]
 	else uri = "";
-	console.log(uri);
+	
         if(req.get.id && req.get.id =="'") console.log("TECHIO> success true");
         
 	var view = this.view.home.toString();
