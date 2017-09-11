@@ -39,6 +39,10 @@ Le premier véritable ordinateur était la grande machine ENIAC (Electrical Nume
 -[x] 30 000kg 
 -[ ] 2407kg
 
+::: Curieux ?
+![alt text](https://raw.githubusercontent.com/adrien-thierry/hmf-training/master/src/eniac.jpg "eniac")
+:::
+
 Autour des années 1950 est apparu le transistor: plus efficace et plus petit, il a remplacé les grosses lampes et est présent dans les radios, ordinateurs, amplificateur ...
 
 Dans les années 1960, grâce au transistor, IBM a développé les mainframes et a été le leader en informatique. Mais les mainframes étaient coûteux, encombrants et difficiles à utiliser.
