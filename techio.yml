@@ -32,7 +32,7 @@ plan:
     statement: markdowns/fr/file_upload_fr.md
   - title: Faille Humaine
     statement: markdowns/fr/se_fr.md
-  
+
 projects:
 
   exo1:
@@ -50,3 +50,7 @@ projects:
   exo3:
     root: nodejs-project
     runner: florianbord2/fortressjs
+
+  compilation:
+    root: code/compilation
+    runner: debian:latest

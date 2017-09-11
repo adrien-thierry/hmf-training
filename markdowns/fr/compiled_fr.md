@@ -8,6 +8,16 @@ Par exemple, apres avoir écrit un programme en language C, on peut le compilé 
 
 `gcc mon_programme.c -o mon_executable`
 
+Pour réussir l'exericde suivant, décommente le code, compile le programme et exécute le :
+
+`gcc hello.c -o hello`
+
+puis
+
+`./hello`
+
+@[Décommente le code, compile le et exécute le pour réussir l'exercice]({"project":"compilation", "stubs": ["hello.c"], "command": "./install.sh"})
+
 # Interpréteur
 
 L'interpréteur est un outils qui analyze votre code source, le traduit en language machine et l'éxécute.
