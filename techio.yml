@@ -54,3 +54,7 @@ projects:
   compilation:
     root: code/compilation
     runner: debian:latest
+
+  interpreter:
+    root: code/interpreter
+    runner: debian:latest
