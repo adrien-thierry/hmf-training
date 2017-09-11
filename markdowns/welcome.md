@@ -15,3 +15,4 @@
 -# Particier
 -
 -Ce cours en ligne est ouvert aux contributeurs : n'hésitez pas à nous aider ici : https://github.com/adrien-thierry/hmf-training
+![alt text](https://raw.githubusercontent.com/adrien-thierry/hmf-training/master/src/fortress.jpg "fortress")
