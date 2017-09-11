@@ -4,7 +4,7 @@ Un compilateur est le terme utilisé pour désigner un programme qui transforme 
 Il transforme un langage simple compréhensible par l'homme en un language plus complexe compréhensible par la machine, le language machine.
 Inversement, un programme effectuant la tache inverse est un décompilateur.
 
-Par exemple, apres avoir écrit un programme en language C, on peut le compilé avec GCC afin d'avoir un executable de notre programme.
+Par exemple, apres avoir écrit un programme en language C, on peut le compiler avec GCC afin d'avoir un executable de notre programme.
 
 `gcc mon_programme.c -o mon_executable`
 
