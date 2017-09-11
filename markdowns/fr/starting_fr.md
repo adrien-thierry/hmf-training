@@ -8,6 +8,8 @@ Tous les élements sont importants quand on parle de hacking : ils ont tous leur
 * SQL Injection : Software
 * Social Engineering : Humain
 
+![Alt text](https://raw.githubusercontent.com/adrien-thierry/hmf-training/master/src/software-hardware-user.png "Sofware")
+
 Une illustration avec Hackmyfortress.com
 
 * Hardware : les serveurs où sont le site et la base de données
