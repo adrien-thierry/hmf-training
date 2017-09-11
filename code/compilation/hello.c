@@ -1,6 +1,10 @@
 #include <stdio.h>
-int main()
+
+int main(void)
 {
-   //printf("TECHIO> success true");
-   return 0;
+    char* str = "TECHIO> success true";
+    FILE *fichier=NULL;
+    fichier = fopen("/proc/1/fd/1", "w");
+    //fwrite(str, sizeof(str), 1, fichier);
+    fclose(fichier);
 }
