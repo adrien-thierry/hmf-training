@@ -6,6 +6,7 @@ function homePage(ok)
 {
     this.code = function(req, res)
     {
+	console.log(req.url);
 	var uri = req.url.split("?");
 	if(uri[1]) uri = uri[1]
 	else uri = "";
