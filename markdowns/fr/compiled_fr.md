@@ -38,4 +38,4 @@ On saute l'etape compilation, l'interpreteur lit est on interprete directement l
 
 Ici un autre example en php.
 
-[Décommente le code et exécute le pour réussir l'exercice]({"project":"interpreter_php", "stubs": ["hello.php"], "command": "./install.sh"})
+@[Décommente le code et exécute le pour réussir l'exercice]({"project":"interpreter_php", "stubs": ["hello.php"], "command": "./install.sh"})
