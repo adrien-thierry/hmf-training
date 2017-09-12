@@ -35,3 +35,7 @@ Ici on a un language interpreter, du Python.
 @[Décommente le code et exécute le pour réussir l'exercice]({"project":"interpreter", "stubs": ["hello.py"], "command": "./install.sh"})
 
 On saute l'etape compilation, l'interpreteur lit est on interprete directement le code.
+
+Ici un autre example en php.
+
+[Décommente le code et exécute le pour réussir l'exercice]({"project":"interpreter_php", "stubs": ["hello.php"], "command": "./install.sh"})

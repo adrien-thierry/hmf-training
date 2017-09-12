@@ -59,7 +59,3 @@ projects:
     root: code/interpreter
     runner: debian:latest
 
-  interpreter_php:
-    root: code/interpreter_php
-    runner: debian:latest
-
