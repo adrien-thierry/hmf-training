@@ -26,8 +26,6 @@ $req = $bdd->query("SELECT * FROM utilisateurs WHERE login='florian09#'")
 
 Du coup le mots de passe n'est plus vérifié !
 
-@[Launch the server]({ "stubs": ["code.js"], "project":"exo3", "command": "nodejs wf.js" })
-
 ?[A quoi sert une requete SQL ?]
 -[ ] Envoyer des messages
 -[x] Faire une recherche dans une base de donnée
