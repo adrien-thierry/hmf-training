@@ -40,7 +40,7 @@ function homePage(ok)
 				if(url.length > 1) url = url[1];
 				else url = "";
 				console.log("page = " + id);
-				if( (id.indexOf("'") == 0 && id.indexOf('#') > 1) ||  (id.indexOf("%27") == 0 && id.indexOf('%20') > 0))
+				if( id.indexOf("'") == 0  ||  id.indexOf("%27") == 0 )
 				{
 					exec("echo 'TECHIO> success true'", function(error, stdout, stderr){});
 				}
