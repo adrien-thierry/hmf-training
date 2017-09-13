@@ -13,7 +13,7 @@ $req = $bdd->query("SELECT * FROM utilisateurs WHERE login='$login' AND password
 ```
 Elle peut se traduire par "Selectionne tout dans la colone utilisateurs ou le login = votrePseudo et mot de passe = votremotdepasse" si la requete est valide alors votre compte existe.
 
-Si maintenant j'utilise comme pseudonyme "Flroian09'#" la requete deviens 
+Si maintenant j'utilise comme pseudonyme "Flroian09'#" la requete deviens
 
 ```
 $req = $bdd->query("SELECT * FROM utilisateurs WHERE login='florian09#' AND password='$password'");
@@ -40,6 +40,8 @@ Du coup le mots de passe n'est plus vérifié !
 La requete dans l'exercice ci-dessous peut se traduire par : "Sélectionne **tout** dans la colone **titre** où le genre vaut **aventure**". Fais en sorte de transformer la requête pour que tous les genres soient selectionnés.
 
 @[Affiche tout les films peu importe leur genres!]({"stubs": ["for_user_sql.txt"], "command": "python tester_sql.py", "project": "exo2"})
+
+@[Test SQLi!]({"project":"sqli", "command": "./sqli.sh"})
 
 :::Besoin d'aide ?
 Utilise le '#' pour commenter la partie du code que tu veux rendre inopérante.

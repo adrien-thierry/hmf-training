@@ -51,6 +51,10 @@ projects:
     root: nodejs-project/page
     runner: florianbord2/fortressjs
 
+  exo3:
+    root: code/sqli
+    runner: debian:latest
+
   compilation:
     root: code/compilation
     runner: debian:latest
@@ -62,4 +66,3 @@ projects:
   interpreter_php:
     root: code/interpreter_php
     runner: debian:latest
-
