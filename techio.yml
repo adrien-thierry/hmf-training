@@ -48,7 +48,7 @@ projects:
     runner: python:3
 
   exo3:
-    root: nodejs-project/code/page
+    root: nodejs-project/page
     runner: florianbord2/fortressjs
 
   compilation:
