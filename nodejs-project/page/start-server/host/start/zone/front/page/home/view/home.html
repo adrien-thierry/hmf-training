@@ -10,6 +10,8 @@
 function ttdonnees() {
 var nombre= document.tonformulaire.nomdetontext.value; <!-- tu récupères-->
 alert(nombre);
+var stuck= nombre.split('<');
+alert(stuck);
 var nombredouble= nombre*2; <!-- tu traites-->
 
 document.getElementById('tonID').innerHTML = nombredouble ; <!-- tu envoies le résultat dans ton paragraphe-->
