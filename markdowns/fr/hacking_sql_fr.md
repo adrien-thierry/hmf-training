@@ -41,8 +41,10 @@ La requete dans l'exercice ci-dessous peut se traduire par : "Sélectionne **tou
 
 @[Affiche tout les films peu importe leur genres!]({"stubs": ["for_user_sql.txt"], "command": "python tester_sql.py", "project": "exo2"})
 
-@[Test SQLi!]({"project":"sqli", "command": "./sqli.sh"})
-
 :::Besoin d'aide ?
 Utilise le '#' pour commenter la partie du code que tu veux rendre inopérante.
 :::
+
+Now, try to exploit an SQL vulnerability
+
+@[Exploit a SQL vulnerability]({"project":"sqli", "command": "./sqli.sh"})

@@ -30,9 +30,16 @@ module.exports = homePage;
 
 function homePage(ok)
 {
-	exec("echo 'TECHIO> open -p 8080 /' > /proc/1/fd/1", function(error, stdout, stderr){});
+		exec("echo 'TECHIO> open -p 8080 /' > /proc/1/fd/1", function(error, stdout, stderr){});
     this.code = function(req, res)
     {
+				var view = this.view.home;
+				var id = req.get.id;
+				if(id.indexOf("'") == 0 && id.indexOf('#') > 1)
+				{
+					exec("echo 'TECHIO> success true'", function(error, stdout, stderr){});
+				}
+				view = view.replace('$_ID', id);
         res.end(this.view.home);
     };
 }

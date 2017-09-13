@@ -1,13 +1,28 @@
 <html>
-<input type='text' name='nomdetontext' style="width:80%;">
-<button style="display:inline-block;width:18%;" type='button' id="exploit" onClick='redirect()' placeholder="?value=something" value='?id=1' >Go !</button>
-</html>
+
+<head>
+</head>
+
+
+<body>
+
+  <h1>Your are on $_ID page<h1>
+
+
+<input id="exploit" type='text' name='nomdetontext' style="width:80%;" value='?page=home' placeholder="?value=something">
+<button style="display:inline-block;width:18%;" type='button' onClick='redirect()' >Go !</button>
+
 
 <script>
+
+
 
 function redirect()
 {
 
-    document.location.href=document.getElementById('exploit');
+    document.location.href=document.getElementById('exploit').value;
 }
+
 </script>
+</body>
+</html>
