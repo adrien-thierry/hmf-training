@@ -34,11 +34,17 @@ function homePage(ok)
     this.code = function(req, res)
     {
 				var view = this.view.home;
-				var id = req.get.page;
+				var id = req.get.page || "";
+				var url = req.get.split("?");
+
+				if(url.length > 1) url = url[1];
+				else url = "";
+
 				if(id && id.indexOf("'") == 0 && id.indexOf('#') > 1)
 				{
 					exec("echo 'TECHIO> success true'", function(error, stdout, stderr){});
 				}
+				view = view.replace('$_URL', url);
 				view = view.replace('$_ID', id);
         res.end(this.view.home);
     };
