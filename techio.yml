@@ -51,7 +51,7 @@ projects:
     root: nodejs-project/page
     runner: florianbord2/fortressjs
 
-  exo3:
+  sqli:
     root: code/sqli
     runner: debian:latest
 
