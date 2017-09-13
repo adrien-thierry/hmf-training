@@ -2,7 +2,7 @@
 
 apt-get update
 
-echo 'TECHIO> terminal'
+echo 'TECHIO> open -p 8080 /home'
 
 while :
 do
