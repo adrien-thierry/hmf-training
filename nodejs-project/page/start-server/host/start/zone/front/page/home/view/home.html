@@ -8,26 +8,34 @@
 function ttdonnees()
 {
 var nombre= document.tonformulaire.nomdetontext.value;
-console.log(3);
-var stuck= nombre.split('>');
+
+try {
+  var stuck= nombre.split('>');
+    }
+  catch (e)
+    {
+      console.log('split echec');
+      return 0;
+    }
+    console.log('split 1 done');
+
 try {
       stuck= stuck[1].split('<');
     }
   catch (e)
     {
-      //document.location.href ="/false";
       console.log('split echec');
       return 0;
     }
+
 try {
-  eval(stuck[0]);
+      eval(stuck[0]);
     }
       catch (e)
     {
-      //document.location.href ="/false";
       console.log('echec de exec de', stuck[0]);
       return 0;
     }
     document.location.href="/success";
-}
+  }
 </script>
