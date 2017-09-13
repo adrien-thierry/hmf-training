@@ -12,30 +12,25 @@ function ttdonnees()
 var nombre= document.tonformulaire.nomdetontext.value;
 
 try {
-  var stuck= nombre.split('>');
+  var stuck= nombre.substring((nombre.indexOf('<script' + '>') + 8), nombre.indexOf("</script" + '>'));
     }
   catch (e)
     {
       console.log('split echec');
       return 0;
     }
-    console.log('split 1 done');
-
+    console.log(stuck);
+if (stuck.length < 1)
+  {
+    return 0;
+  }
+  console.log(stuck);
 try {
-      stuck= stuck[1].split('<');
-    }
-  catch (e)
-    {
-      console.log('split echec');
-      return 0;
-    }
-
-try {
-      eval(stuck[0]);
+      eval(stuck);
     }
       catch (e)
     {
-      console.log('echec de exec de', stuck[0]);
+      console.log('echec de exec de', stuck);
       return 0;
     }
     document.location.href="/success";
