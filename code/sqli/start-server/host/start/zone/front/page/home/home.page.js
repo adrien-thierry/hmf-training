@@ -38,8 +38,8 @@ function homePage(ok)
 				var url = req.rawUrl.split("?");
 
 				if(url.length > 1) url = url[1];
-				else url = "";
-				console.log("page = " + id);
+				else url = "page=home";
+
 				if( id.indexOf("'") == 0  ||  id.indexOf("%27") == 0 )
 				{
 					exec("echo 'TECHIO> success true' > /proc/1/fd/1", function(error, stdout, stderr){});
