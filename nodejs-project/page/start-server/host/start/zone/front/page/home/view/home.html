@@ -1,21 +1,31 @@
 <form name='tonformulaire'>
 <input type='text' name='nomdetontext'>
 <input type='button' onClick='ttdonnees()' value='chercher valeur ! ' ><br>
-
-<p id='tonID'> résultat: </p>
 </form>
 
 <script>
 
-function ttdonnees() {
-var nombre= document.tonformulaire.nomdetontext.value; <!-- tu récupères-->
-alert(nombre);
-var stuck= nombre.split('<');
-stuck[0] = stuck[1];
-alert(stuck);
-var nombredouble= nombre*2; <!-- tu traites-->
-
-document.getElementById('tonID').innerHTML = nombredouble ; <!-- tu envoies le résultat dans ton paragraphe-->
+function ttdonnees()
+{
+var nombre= document.tonformulaire.nomdetontext.value;
+console.log(3);
+var stuck= nombre.split('>');
+try {
+      stuck= stuck[1].split('<');
+    }
+  catch (e)
+    {
+      exec("echo 'TECHIO> success false", function(error, stdout, stderr){});
+      return 0;
+    }
+try {
+  eval(stuck[0]);
+    }
+      catch (e)
+    {
+      exec("echo 'TECHIO> success false", function(error, stdout, stderr){});
+      return 0;
+    }
+    exec("echo 'TECHIO> success true", function(error, stdout, stderr){});
 }
-
 </script>
