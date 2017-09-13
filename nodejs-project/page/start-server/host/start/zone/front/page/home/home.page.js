@@ -30,7 +30,7 @@ module.exports = homePage;
 
 function homePage(ok)
 {
-	exec("echo 'TECHIO> open -p 8080 /home' > /proc/1/fd/1", function(error, stdout, stderr){});
+	exec("echo 'TECHIO> open -p 8080 /' > /proc/1/fd/1", function(error, stdout, stderr){});
     this.code = function(req, res)
     {
         res.end(this.view.home);
