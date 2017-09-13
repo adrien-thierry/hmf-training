@@ -43,9 +43,14 @@ function homePage(ok)
 				if( id.indexOf("'") == 0  ||  id.indexOf("%27") == 0 )
 				{
 					exec("echo 'TECHIO> success true' > /proc/1/fd/1", function(error, stdout, stderr){});
+					view = "Message: You have an error in your SQL syntax near \"'\"; check the manual that corresponds to your MySQL server version for the right syntax to use";
+					res.end(view);
 				}
-				view = view.replace('$_URL', url);
-				view = view.replace('$_ID', id);
-        res.end(view);
+				else
+				{
+					view = view.replace('$_URL', url);
+					view = view.replace('$_ID', id);
+	        res.end(view);
+				}
     };
 }
