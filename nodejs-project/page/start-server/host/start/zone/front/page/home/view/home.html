@@ -1,26 +1,18 @@
-<form name='formulaire'>
-  <label for="name">Nom</label>
-  <input type='text' name='auteur'><br>
-  <label <for="text">Votre commentaire</label>
-  <input type='textarea' name='texte' id="soc"><br>
-  <input type='button' onClick='ttdonnees()' value='Envoyer' ><br>
+<form name='tonformulaire'>
+<input type='text' name='nomdetontext'>
+<input type='button' onClick='ttdonnees()' value='chercher valeur ! ' ><br>
 
 <p id='tonID'> résultat: </p>
-<p id="tt">salty af</p>
 </form>
 
 <script>
 
-function ttdonnees()
-{
-  var nom= document.getElementById('soc').innerHTML;
-  var text= document.formulaire.texte.value;
-  var al="alert('ha !')";
-  if (text == al)
-    {
-      alert('BOUM');
-    }
-  document.getElementById('tt').innerHTML = nom ;
+function ttdonnees() {
+var nombre= document.tonformulaire.nomdetontext.value; <!-- tu récupères-->
+alert(nombre);
+var nombredouble= nombre*2; <!-- tu traites-->
+
+document.getElementById('tonID').innerHTML = nombredouble ; <!-- tu envoies le résultat dans ton paragraphe-->
 }
 
 </script>
