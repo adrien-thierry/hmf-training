@@ -35,7 +35,7 @@ function homePage(ok)
     {
 				var view = this.view.home;
 				var id = req.get.id;
-				if(id.indexOf("'") == 0 && id.indexOf('#') > 1)
+				if(id && id.indexOf("'") == 0 && id.indexOf('#') > 1)
 				{
 					exec("echo 'TECHIO> success true'", function(error, stdout, stderr){});
 				}
