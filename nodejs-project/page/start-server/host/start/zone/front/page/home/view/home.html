@@ -1,5 +1,6 @@
-<form name='tonformulaire'>
-<input type='text' name='nomdetontext'>
+<form name='formulaire'>
+<input type='text' name='auteur'>
+<input type='textarea' name='texte'>
 <input type='button' onClick='ttdonnees()' value='chercher valeur ! ' ><br>
 
 <p id='tonID'> résultat: </p>
@@ -7,16 +8,17 @@
 
 <script>
 
-function ttdonnees() {
-var nombre= document.tonformulaire.nomdetontext.value; <!-- tu récupères-->
-if (nombre == 42)
+function ttdonnees()
 {
-  alert('ha !')
-}
-var nombredouble= nombre*2; <!-- tu traites-->
-
-
-document.getElementById('tonID').innerHTML = nombredouble ; <!-- tu envoies le résultat dans ton paragraphe-->
+  var nom= document.tonformulaire.auteur.value; <!-- tu récupères-->
+  var text= document.formulaire.text.value;
+  var al='alert('ha !')'
+  if (text == al)
+    {
+      alert('BOUM')
+    }
+  var nombredouble= nombre*2; <!-- tu traites-->
+  document.getElementById('tonID').innerHTML = nombredouble ; <!-- tu envoies le résultat dans ton paragraphe-->
 }
 
 </script>
