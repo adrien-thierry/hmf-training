@@ -40,6 +40,6 @@ On saute l'etape compilation, l'interpreteur lit est on interprete directement l
 
 Ici un autre example en ruby. Pour l'executer utilise la commande :
 
-`ruby hello.c`
+`ruby hello.rb`
 
 @[Décommente le code et exécute le pour réussir l'exercice]({"project":"interpreter_php", "stubs": ["hello.rb"], "command": "./install.sh"})
