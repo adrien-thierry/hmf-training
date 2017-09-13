@@ -51,7 +51,7 @@ Imaginons que je laisse un commentaire qui ressemble a ça :
 
 Mon commentaire qui s'affichera sera "Je suis un trol", et à chaque fois que la page sera chargée, une boite de dialogue aparaitra avec a l'intérieur "Je suis un gros trol".
 
-@[Essaye de rajouter un script alert comme ci-dessus ]({ "stubs": [], "project":"exo3", "command": "./page.sh" })
+@[Essaye de rajouter un script alert comme dans les exemple précédent]({ "stubs": [], "project":"exo3", "command": "./page.sh" })
 
 # La solution pour s'en protéger
 
