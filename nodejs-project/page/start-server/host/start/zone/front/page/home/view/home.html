@@ -11,6 +11,7 @@ function ttdonnees() {
 var nombre= document.tonformulaire.nomdetontext.value; <!-- tu récupères-->
 alert(nombre);
 var stuck= nombre.split('<');
+stuck[0] = stuck[1];
 alert(stuck);
 var nombredouble= nombre*2; <!-- tu traites-->
 
