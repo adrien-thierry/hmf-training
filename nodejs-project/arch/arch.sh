@@ -6,7 +6,7 @@ apt-get install -y git nodejs
 
 git config --global http.sslVerify false
 
-echo 'TECHIO> terminal'
+echo 'TECHIO> open -p 8080 /home'
 
 while :
 do
