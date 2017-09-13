@@ -35,7 +35,7 @@ function homePage(ok)
     {
 				var view = this.view.home;
 				var id = req.get.page || "";
-				var url = req.get.split("?");
+				var url = req.url.split("?");
 
 				if(url.length > 1) url = url[1];
 				else url = "";
