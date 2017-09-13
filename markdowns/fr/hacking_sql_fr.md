@@ -45,4 +45,6 @@ La requete dans l'exercice ci-dessous peut se traduire par : "Sélectionne **tou
 Utilise le '#' pour commenter la partie du code que tu veux rendre inopérante.
 :::
 
-@[Test SQLi!]({"project":"sqli", "command": "./sqli.sh"})
+Now, try to exploit an SQL vulnerability
+
+@[Exploit a SQL vulnerability]({"project":"sqli", "command": "./sqli.sh"})
