@@ -6,20 +6,21 @@
   <input type='button' onClick='ttdonnees()' value='Envoyer' ><br>
 
 <p id='tonID'> résultat: </p>
+<p id="tt">salty af</p>
 </form>
 
 <script>
 
 function ttdonnees()
 {
-  var nom= document.tonformulaire.auteur.value;
+  var nom= document.getElementById('tonID').innerHTML;
   var text= document.formulaire.texte.value;
-  var al="alert('ha !')"
+  var al="alert('ha !')";
   if (text == al)
     {
-      alert('BOUM')
+      alert('BOUM');
     }
-  document.getElementById('tonID').innerHTML = text ;
+  document.getElementById('tt').innerHTML = nom ;
 }
 
 </script>
