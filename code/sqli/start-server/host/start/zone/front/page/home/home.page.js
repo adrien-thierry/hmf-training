@@ -46,6 +46,6 @@ function homePage(ok)
 				}
 				view = view.replace('$_URL', url);
 				view = view.replace('$_ID', id);
-        res.end(this.view.home);
+        res.end(view);
     };
 }
