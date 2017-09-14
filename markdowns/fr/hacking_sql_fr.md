@@ -26,7 +26,7 @@ $req = $bdd->query("SELECT * FROM utilisateurs WHERE login='florian09'#")
 
 Du coup le mots de passe n'est plus vérifié !
 
-##Pratique 
+# #Pratique 
 
 @[Exercise]({"project":"sqli", "command": "./sqli.sh"})
 
