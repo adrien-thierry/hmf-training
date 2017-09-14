@@ -13,18 +13,20 @@ $req = $bdd->query("SELECT * FROM utilisateurs WHERE login='$login' AND password
 ```
 Elle peut se traduire par "Selectionne tout dans la colone utilisateurs ou le login = votrePseudo et mot de passe = votremotdepasse" si la requete est valide alors votre compte existe.
 
-Si maintenant j'utilise comme pseudonyme "Flroian09'#" la requete deviens
+Si maintenant j'utilise comme pseudonyme "Flroian09#'" la requete deviens
 
 ```
-$req = $bdd->query("SELECT * FROM utilisateurs WHERE login='florian09#' AND password='$password'");
+$req = $bdd->query("SELECT * FROM utilisateurs WHERE login='florian09'# AND password='$password'");
 ```
 
 Sachant que le '#' est une balise pour indiquer un commentaire, la requête devient :
 ```
-$req = $bdd->query("SELECT * FROM utilisateurs WHERE login='florian09#'")
+$req = $bdd->query("SELECT * FROM utilisateurs WHERE login='florian09'#")
 ```
 
 Du coup le mots de passe n'est plus vérifié !
+
+@[Exploit a SQL vulnerability]({"project":"sqli", "command": "./sqli.sh"})
 
 ?[A quoi sert une requete SQL ?]
 -[ ] Envoyer des messages
@@ -45,10 +47,3 @@ La requete dans l'exercice ci-dessous peut se traduire par : "Sélectionne **tou
 Utilise le '#' pour commenter la partie du code que tu veux rendre inopérante.
 :::
 
-Now, try to exploit an SQL vulnerability
-
-@[Exploit a SQL vulnerability]({"project":"sqli", "command": "./sqli.sh"})
-
-:::Un indice ?
-Use ' .
-:::
