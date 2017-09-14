@@ -26,7 +26,9 @@ $req = $bdd->query("SELECT * FROM utilisateurs WHERE login='florian09'#")
 
 Du coup le mots de passe n'est plus vérifié !
 
-@[Exploit a SQL vulnerability]({"project":"sqli", "command": "./sqli.sh"})
+##Pratique 
+
+@[Exercise]({"project":"sqli", "command": "./sqli.sh"})
 
 ?[A quoi sert une requete SQL ?]
 -[ ] Envoyer des messages
