@@ -20,9 +20,8 @@ function redirect()
 {
     var login= document.loger.pseudo.value;
     var len= login.length;
-    console.log('Pseudo :' + login + 'len :' + len);
-    console.log('char :' + login[len - 1]);
-    if (login[len - 1] == '#' && login[len - 2] == '\'') {
+    if (login == 'admin\'#') 
+    {
       document.location.href="/success";
     }
 console.log('Fin du script');
