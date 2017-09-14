@@ -48,3 +48,7 @@ Utilise le '#' pour commenter la partie du code que tu veux rendre inopérante.
 Now, try to exploit an SQL vulnerability
 
 @[Exploit a SQL vulnerability]({"project":"sqli", "command": "./sqli.sh"})
+
+:::Un indice ?
+Use ' .
+:::
