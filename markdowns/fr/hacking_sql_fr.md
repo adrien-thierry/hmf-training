@@ -28,7 +28,7 @@ Du coup le mots de passe n'est plus vérifié !
 
 # #Pratique 
 
-@[Exercise]({"project":"sqli", "command": "./sqli.sh"})
+@[Connecte toi au compte 'admin']({"project":"sqli", "command": "./sqli.sh"})
 
 ?[A quoi sert une requete SQL ?]
 -[ ] Envoyer des messages
