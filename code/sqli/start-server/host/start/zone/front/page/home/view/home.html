@@ -5,22 +5,27 @@
 
 
 <body>
-
-  <h1>Your are on $_ID page<h1>
-
-
-<input id="exploit" type='text' name='nomdetontext' style="width:80%;" value='?page=home' placeholder="?value=something">
-<button style="display:inline-block;width:18%;" type='button' onClick='redirect()' >Go !</button>
-
+<div style="text-align:center;password-align:center">
+    <h1>Essaye de passer la protection par mots de pass<h1>
+      <form name="loger">
+<input id="exploit" type='text' name='pseudo' style="width:20%;" value='Pseudonyme' placeholder="?value=something"><br>
+<input id="password" type='password' name='password' style="width:20%;" value='' placeholder="password"><br>
+<button style="display:inline-block;width:18%;" type='button' onClick='redirect()' >Login</button>
+</form>
+</div>
 
 <script>
 
-
-
 function redirect()
 {
-
-    document.location.href=document.getElementById('exploit').value;
+    var login= document.loger.pseudo.value;
+    var len= login.length;
+    console.log('Pseudo :' + login + 'len :' + len);
+    console.log('char :' + login[len - 1]);
+    if (login[len - 1] == '#' && login[len - 2] == '\'') {
+      document.location.href="/success";
+    }
+console.log('Fin du script');
 }
 
 </script>
