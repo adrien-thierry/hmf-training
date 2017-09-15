@@ -13,4 +13,4 @@ Un serveur est un ordinateur dont le but principal est de servir des données su
 ?[La RAM (Random acces memory) c'est quoi ?]
 -[ ] Un album des Daft Punk 
 -[X] Une zone memoire bien specifique du pc 
--[ ] Un outils qui fait des calcul 
+-[ ] Un outil qui fait des calcul 
