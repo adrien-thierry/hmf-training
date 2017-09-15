@@ -1,6 +1,6 @@
 # Hacking Training Center
 
-Bienvenue dans le HackMyFortress - Hacking Training Center ! Vous voulez vaincre la forteresse mais vous ne connaissez rien au hacking ? Suivez ce cours en ligne pour apprendre à maitriser les techniques et les outils des hackers. Il sera mis à jour régulièrement.
+Bienvenue dans le hackMyFortress - Hacking training Center ! Vous voulez vaincre la forteresse mais vous ne connaissez rien aux hackings ? suivez ce cours en ligne pour apprendre à maitriser les techniques et les outils des hackers. Il sera mis à jour régulièrement.
 
 # Les Bases
 
