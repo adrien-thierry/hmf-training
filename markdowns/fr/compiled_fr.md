@@ -38,7 +38,7 @@ Ici on a un language interprété, du Python. Pour l'exécuter utilise la comman
 
 On saute l'étape compilation, l'interpréteur lit est-on interprète directement le code.
 
-Ici un autre example en ruby. Pour l'executer utilise la commande :
+Ici un autre example en ruby. Pour l'exécuter utilise la commande :
 
 `ruby hello.rb`
 
