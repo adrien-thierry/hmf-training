@@ -10,7 +10,12 @@ Un ordinateur est une machine électronique qui utilise de l'électricité pour 
 
 Un serveur est un ordinateur dont le but principal est de servir des données sur un réseau.
 
-?[La RAM (Random acces memory) c'est quoi ?]
+?[La RAM (Random Access Memory) c'est quoi ?]
 -[ ] Un album des Daft Punk 
 -[X] Une zone memoire bien specifique du pc 
 -[ ] Un outil qui fait des calcul 
+
+?[Quels est le but d'un serveur ?]
+-[ ] Fournir un serice au client 
+-[ ] Stocker des données 
+-[ ] Recevoir pliens de pourboires 
