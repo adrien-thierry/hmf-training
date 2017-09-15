@@ -1,6 +1,6 @@
 # Alghorithm
 
-L'algorithmie est une suite d'opération ou d'instruction permettant de résoudre un problème ou d'obtenir un résultat.
+L'algorithmie est une suite d'opérations ou d'instructions permettant de résoudre un problème ou d'obtenir un résultat.
 Prenons comme exemple un language de base, le C.
 
 ## Variable
@@ -9,7 +9,7 @@ Pour commencer à faire des opérations il va vous falloir des variables, exempl
 
 ```int    A;``` 
 
-j'obtiens une variable de type **int** qui se nome **A**.
+j'obtiens une variable de type **int** qui se nomme **A**.
 Maintenant je vais assigner une valeur à ma variable que je viens de déclarer, exemple : 
 
 ```
@@ -23,7 +23,7 @@ Je peux aussi assigner une valeur à ma variable sur la ligne où je la déclare
 
 Il existe différents types de variable, un int pourra stocker des entiers de valeur **–2147483648** à **2147483647**. Pour stocker une valeur plus grande il vous faudra changer de type de variable.
 
-Maintenant que nous avont des variables, parlons des prochains outils.
+Maintenant que nous avons des variables, parlons des prochains outils.
 
 ## La boucle **tant que** (while)
 
@@ -39,7 +39,7 @@ while (var < 42)
  	}
 ```
 
-Ici **tant que** ma varibale **var** est strictement infériuer à 42, on effectue les instructions dans la boucle. Donc ici la boucle va se répéter 42 fois. Une fois la condition remplie la lecture du code reprend sous la boucle.
+Ici **tant que** ma varibale **var** est strictement inférieure à 42, on effectue les instructions dans la boucle. Donc ici la boucle va se répéter 42 fois. Une fois la condition remplie la lecture du code reprend sous la boucle.
 
 ## La boucle **pour** (For)
 
@@ -66,7 +66,7 @@ if (var == 2)
 
 Ici les instructions dans le 'if' (entre les crochets) ne vont s'exécuter que si la condition est remplie, **printf()** est une fonction qui permet d'afficher du texte.
 Donc dans le cas présent mon programme va bien afficher "var vaut bien 2".
-Voilà quels que exemples de condition que l'on peut utiliser dans les conditions :
+Voilà quelques exemples de condition que l'on peut utiliser dans les conditions :
 
 * \> , < , >=, <= (supérieur, inférieur , supérieur ou egal, inférieur ou egal)
 * !=, == (différent, egal)
@@ -124,13 +124,13 @@ while i < 10
 	i++;
 ```
 
-Comme vous le voyait toute se resemble.
+Comme vous le voyez toute se resemble.
 
 @[Fait un "Hello World"]({"stubs": ["for_user.c"], "project":"exo1", "command": "python test_for_user.py"})
 
 C'étais simple hien :)
 Passons a plus complexe, je vous demande de produire du code qui va afficher l'alphabet. "printf("abcdefghijklmnopqrstuvwxyz");" me dite vous ? **Interdicton d'utiliser la fonction printf**. Vous allez utiliser une **boucle while**, **une variable** et la fonction **my_putchar()** qui affiche le paramètre que vous lui passez entre parenthése.
-Pour réussir c'est exercise vous allez avoir besoin de regarder le **tableau ascii**. Dans ce tableau vous allait voir que des valeurs décimales représente des caractères. jettez y un coup d'oeil [MAN ASCII](http://www.linux-france.org/article/man-fr/man7/ascii-7.html)
+Pour réussir c'est exercise vous allez avoir besoin de regarder le **tableau ascii**. Dans ce tableau vous allez voir que des valeurs décimales représente des caractères. jettez y un coup d'oeil [MAN ASCII](http://www.linux-france.org/article/man-fr/man7/ascii-7.html)
 
 ?[Quelle valeur décimale vaut le caractère 'a' ?]
 - [ ] 65
