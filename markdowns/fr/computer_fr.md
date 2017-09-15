@@ -16,6 +16,6 @@ Un serveur est un ordinateur dont le but principal est de servir des données su
 -[ ] Un outil qui fait des calcul 
 
 ?[Quels est le but d'un serveur ?]
--[ ] Fournir un serice au client 
+-[x] Fournir un serice au client 
 -[ ] Stocker des données 
 -[ ] Recevoir pliens de pourboires 
