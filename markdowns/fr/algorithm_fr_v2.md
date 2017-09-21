@@ -133,7 +133,7 @@ C'etais simple hien :)
 Passont a plus complexe !
 Je vous demande de produire du code qui va afficher l'alphabet. 
 
-`printf("abcdefghijklmnopqrstuvwxyz");" me dite vous ?`
+`printf("abcdefghijklmnopqrstuvwxyz");` me dite vous ?
 
 **Interdicton d'utiliser la fonction printf**.
 Vous aller utiliser :
