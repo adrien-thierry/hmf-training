@@ -35,19 +35,19 @@ plan:
 projects:
 
   exo1:
-    root: exo-project
+    root: code/exo-project
     runner: python:3
 
   exo1bis:
-    root: exo2-project
+    root: code/exo2-project
     runner: python:3
 
   exo2:
-    root: sql_exo
+    root: code/sql_exo
     runner: python:3
 
   exo3:
-    root: nodejs-project/page
+    root: code/nodejs-project/page
     runner: florianbord2/fortressjs
 
   sqli:
