@@ -130,7 +130,17 @@ Comme vous le voyez, toute se resemblent.
 @[Fait un "Hello World"]({"stubs": ["for_user.c"], "project":"exo1", "command": "python test_for_user.py"})
 
 C'etais simple hien :)
-Passont a plus complexe, je vous demande de produire du code qui va afficher l'alphabet. "printf("abcdefghijklmnopqrstuvwxyz");" me dite vous ? **Interdicton d'utiliser la fonction printf**. Vous aller utiliser une **boucle while**, **une variable** et la fonction **my_putchar()** qui affiche le parametre que vous lui passer entre parenthése.
+Passont a plus complexe !
+Je vous demande de produire du code qui va afficher l'alphabet. 
+
+`printf("abcdefghijklmnopqrstuvwxyz");" me dite vous ?`
+
+**Interdicton d'utiliser la fonction printf**.
+Vous aller utiliser :
+- une **boucle while**
+- **une variable** 
+- la fonction **my_putchar()** (qui affiche le parametre que vous lui passer entre parenthése)
+
 Pour réussir c'est exercise vous aller avoir besoin de regarder le **tableau ascii**. Dans ce tableau vous aller voir que des valeurs decimale represente des caractéres. jettez y un coup d'oeil [MAN ASCII](http://www.linux-france.org/article/man-fr/man7/ascii-7.html)
 
 ?[Quels valeur decimal vaut le caractére 'a' ?]
