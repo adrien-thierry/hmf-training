@@ -44,7 +44,11 @@ Ici **tant que** ma varibale **var** est strictement infériuer a 42, on effectu
 
 ## La boucle **pour** (For)
 
-La boucle "for" vous permet de répéter une ou plusieurs instructions tant qu'un test est vérifié. La boucle "for" la plus utilisée consiste à avoir une variable, "i", initialisée à 0 et répéter une instruction tant que "i" est inférieur à un nombre tel que 3. Ainsi, l'instruction contenue dans la boucle "for" sera répété 3 fois. (Une fois à 0, une fois à 1, puis à 2, alors "i" est égal à 3, alors "i" ne vérifie pas la condition d'infériorité à 3). Exemple :
+La boucle "for" vous permet de répéter une ou plusieurs instructions tant qu'un test est vérifié.
+
+La boucle "for" la plus utilisée consiste à avoir une variable, "i", initialisée à 0 et répéter une instruction tant que "i" est inférieur à un nombre tel que 3, par exemple.
+
+Ainsi, l'instruction contenue dans la boucle "for" sera répété 3 fois. (Une fois à 0, une fois à 1, puis à 2, alors "i" est égal à 3, alors "i" ne vérifie pas la condition d'infériorité à 3). Exemple :
 
 ```for(var i = 0; i < 3; i++)
 {
@@ -65,7 +69,9 @@ if (var == 2)
 	}
 ```
 
-Ici les instruction dans le if (entre les crochet) ne vont s'executer que si la condition est remplie, **printf()** est une fonction qui permet d'afficher du texte.
+Ici les instruction dans le if (entre les crochet) ne vont s'executer que si la condition est remplie.
+**printf()** est une fonction qui permet d'afficher du texte.
+
 Donc dans le cas present mon programme va bien afficher "var vaut bien 2".
 Voila quels que exemples de condition que l'on peut utiliser dans les condition :
 
