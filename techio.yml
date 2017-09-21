@@ -1,9 +1,8 @@
-title : Hackmyfortress - Training Center - Français
+title : Hacking Training Center - Fr
 
-# Table of content
 plan:
-  - title: Bienvenue # Set the page title (only displayed if your contribution has several pages)
-    statement: markdowns/welcome.md # Set the file path to the page content
+  - title: Bienvenue
+    statement: markdowns/welcome.md
   - title: Le cours
     statement: markdowns/fr/training_fr.md
   - title: Démarrer

@@ -1,6 +1,6 @@
 # La faille include
 
-La fonction include() en PHP sert a executer du code php qui se situe dans un autre fichier. Exemple: 
+La fonction include() en PHP sert a exécuter du code php qui se situe dans un autre fichier. Exemple: 
 
 ```
 <?php
@@ -8,7 +8,7 @@ La fonction include() en PHP sert a executer du code php qui se situe dans un au
 include(bth.php)
 ```
 
-Dans ce cas, c'est le code dans bth.php qui sera executé.
+Dans ce cas, c'est le code dans bth.php qui sera exécuté.
 
 Si par contre le développeur écrit ce code :
 
