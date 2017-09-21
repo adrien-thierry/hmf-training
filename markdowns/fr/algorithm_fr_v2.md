@@ -8,10 +8,10 @@ Prenons comme exemple un language de base, le C.
 
 Pour commencer a faire des opération il va vous falloir des variables, exemple :
 
-```int    A;``` 
+```int    A;```
 
 j'obtiens une variable de type **int** qui se nome **A**.
-Mintenant je vais assigner une valeur a ma variables que je viens de déclarer, exemple : 
+Mintenant je vais assigner une valeur a ma variables que je viens de déclarer, exemple :
 
 ```
 int    A;
@@ -22,7 +22,7 @@ Je peut aussi assigné une valeur a ma variable sur la ligne ou je la déclare, 
 
 ```int    A = 42;```
 
-Il existe différents type de variables, un int pourra stocker des entier de valeur **–2147483648** à **2147483647**. Pour stocker une valeur plus grande il vous faudra changer de type de variable.
+Il existe différents type de variables, un **int** pourra stocker des entier de valeur **–2147483648** à **2147483647**. Pour stocker une valeur plus grande il vous faudra changer de type de variable.
 
 Mintenant que nous avont des variables, parlons des prochain outils.
 
@@ -125,7 +125,7 @@ while i < 10
 	i++;
 ```
 
-Comme vous le voyait toute se resemble.
+Comme vous le voyez, toute se resemblent.
 
 @[Fait un "Hello World"]({"stubs": ["for_user.c"], "project":"exo1", "command": "python test_for_user.py"})
 
@@ -142,7 +142,7 @@ Pour réussir c'est exercise vous aller avoir besoin de regarder le **tableau as
 @[Ecris une fonction qui va afficher l'alphabet]({"stubs": ["for_user.c"], "project":"exo1bis", "command": "python test_for_user.py"})
 
 ::: Un indice ?
-Supposont que je déclare une variable de type **int** qui sapelle **i**, je dit que "i = 97". 
+Supposont que je déclare une variable de type **int** qui sapelle **i**, je dit que "i = 97".
 
 ```
 int i;
