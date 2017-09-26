@@ -171,10 +171,8 @@ La variable i contient une valeur décimal qui vaut le caractère 'a' donc je va
 
 :::Solution
  ```
-	int i = 'a';
-	// déclaration de la varibale et je lui donne la valueur 'a'
-	while(i <= 'z')
-	// tant que i (qui vaut le caractére 'a') est inférieur ou egal au caractére 'z'
+	int i = 'a'; // déclaration de la varibale et je lui donne la valueur 'a'
+	while(i <= 'z') // tant que i (qui vaut le caractére 'a') est inférieur ou egal au caractére 'z'
 	{
 		my_putchar(i); // afficher i
 		i++; // incrémenter i
