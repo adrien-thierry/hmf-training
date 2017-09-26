@@ -166,7 +166,7 @@ i = 97;
 my_putchar(i);
 ```
 
-La variable i contiens une valeur decimal qui vaut le caractere 'a' donc je vais bien afficher un 'a'
+La variable i contient une valeur décimal qui vaut le caractère 'a' donc je vais bien afficher un 'a'
 :::
 
 :::Solution
@@ -175,6 +175,6 @@ La variable i contiens une valeur decimal qui vaut le caractere 'a' donc je vais
 	while(i <= 'z') // tant que i (qui vaut le caractére 'a') est inférieur ou egal au caractére 'z'
 	{
 		my_putchar(i); // afficher i
-		i++; // incrémenter i 
+		i++; // incrémenter i
 	}
  `
