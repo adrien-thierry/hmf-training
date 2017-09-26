@@ -1,6 +1,6 @@
 # Compilateur & Décompilateur
 
-Un compilateur est le terme utilisé pour désigner un programme qui transforme un code source écrit dans un langage de programmation en un autre langage informatique.*
+Un compilateur est le terme utilisé pour désigner un programme qui transforme un code source écrit dans un langage de programmation en un autre langage informatique.
 Il transforme un langage simple compréhensible par l'homme en un language plus complexe compréhensible par la machine, le language machine.
 Inversement, un programme effectuant la tâche inverse est un décompilateur.
 
