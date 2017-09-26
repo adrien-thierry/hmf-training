@@ -137,14 +137,14 @@ Comme vous le voyez, toute se resemblent.
 
 C'etais simple hien :)
 Passont a plus complexe !
-Je vous demande de produire du code qui va afficher l'alphabet. 
+Je vous demande de produire du code qui va afficher l'alphabet.
 
 `printf("abcdefghijklmnopqrstuvwxyz");` me dite vous ?
 
 **Interdicton d'utiliser la fonction printf**.
 Vous aller utiliser :
 - une **boucle while**
-- **une variable** 
+- **une variable**
 - la fonction **my_putchar()** (qui affiche le parametre que vous lui passer entre parenthése)
 
 Pour réussir c'est exercise vous aller avoir besoin de regarder le **tableau ascii**. Dans ce tableau vous aller voir que des valeurs decimale represente des caractéres. jettez y un coup d'oeil [MAN ASCII](http://www.linux-france.org/article/man-fr/man7/ascii-7.html)
@@ -168,3 +168,13 @@ my_putchar(i);
 
 La variable i contiens une valeur decimal qui vaut le caractere 'a' donc je vais bien afficher un 'a'
 :::
+
+:::Solution
+ `
+	int i = 'a'; // déclaration de la varibale et je lui donne la valueur 'a'
+	while(i <= 'z') // tant que i (qui vaut le caractére 'a') est inférieur ou egal au caractére 'z'
+	{
+		my_putchar(i); // afficher i
+		i++; // incrémenter i 
+	}
+ `
