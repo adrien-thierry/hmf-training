@@ -1,6 +1,6 @@
 # Alghorithm
 
-L'alghorithmie est une suite d'opération ou d'instruction permmettant de résoudre un probléme ou d'obtenir un résultat.
+L'alghorithmie est une suite d'opérations ou d'instructions permettant de résoudre un probléme ou d'obtenir un résultat.
 
 Prenons comme exemple un language de base, le C.
 
