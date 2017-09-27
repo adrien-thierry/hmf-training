@@ -6,10 +6,15 @@ Voila quelques examples de langage : C, C++, Ruby, Python, C#, JAVA, JS ...
 
 ## Histoire du C
 
+
 Le langage C possède trois ancêtres : le CPL, le BCPL et le B.
 
 Le langage C a été développé par Dennis Ritchie qui pensait d'abord faire uniquement un New B ou NB. Mais en plus des caractères, Ritchie ajouta les tableaux, les pointeurs, les nombres à virgule flottante, les structures... 1972 fut l'année de développement la plus productive et sans doute l'année de baptême de C. En 1973, le langage C fut suffisamment au point pour que 90 % d'UNIX puisse être récrit avec. En 1974, les laboratoires Bell ont accordé des licences UNIX aux universités et c'est ainsi que le langage C a commencé à être distribué. 
 
+::: C'est quoi UNIX ?
+UNIX est le nom d'un système d'exploitation créé en 1969, à usage principalement professionnel, conceptuellement ouvert et fondé sur une 
+approche par laquelle il offre de nombreux petits outils chacun dotés d'une mission spécifique, multitâche et multiutilisateur
+:::
 
 
 ## Quelques généralités
