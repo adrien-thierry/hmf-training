@@ -4,8 +4,7 @@ Pour développer des API ou des services, et savoir les hacker, vous devez appre
 
 Voila quelques examples de langage : C, C++, Ruby, Python, C#, JAVA, JS ...
 
-
-##Histoire du C
+## Histoire du C
 
 Le langage C possède trois ancêtres : le CPL, le BCPL et le B.
 
