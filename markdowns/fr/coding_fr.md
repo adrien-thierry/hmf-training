@@ -27,7 +27,7 @@ Quand vous voudrez vous en prendre à n'importe quelle cité du web.
 
 L’HyperText Markup Language, généralement abrégé HTML, c’est un langage de balisage permettant d’écrire de l’hypertexte, d’où son nom.
 C'est lui qui va définir la structure du cite.
-Le PHP est un language généralement intégrer au HTML pour le rendre plus vivant, que des interactions puissent se faire entre l'utilisateur et la page.
+Le PHP est un language généralement intégrer au HTML pour le rendre plus vivant, et que des interactions puissent se faire entre l'utilisateur et la page.
 
 
 ## Quelques généralités
